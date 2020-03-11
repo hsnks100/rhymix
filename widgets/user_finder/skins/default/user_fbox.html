@@ -1,0 +1,24 @@
+<!--%import("js/user_fbox.js")-->
+<!--%import("css/user_fbox.css")-->
+<div class="user_finder_box">
+	<input type="hidden" class="search_target" value="{$args->search_target}"/>
+	<input type="hidden" class="delay_time" value="{$args->delay_time}"/>
+	<input type="hidden" class="disp_info" value="{$args->disp_info}"/>
+	<input type="hidden" class="sort_order" value="{$args->sort_order}"/>
+	<input type="hidden" class="sort_list" value="{$args->sort_list}"/>
+	<input type="hidden" class="list_count" value="{$args->list_count}"/>
+	<input type="hidden" class="dispMemberInfo" value="{getUrl('', 'act', 'dispMemberInfo', 'member_srl', 'z')}"/>
+	<input type="hidden" class="width" value="{$args->width}"/>
+	
+	<div class="btnClose"></div>
+	<input type="text" class="inputbox" value="" default="사용자를 찾아보세요."/>
+	<div class="user_info_original" style="display:none">
+		<div><img class="profile" src="img/anonymous.jpg"/></div>
+		<div class="info_cont">
+			<div class="inbox_1"></div>
+			<div class="inbox_2"></div>
+			<div class="inbox_3"></div>
+		</div>
+	</div>
+	<div class="see_more" style="display:none">더 보기...</div>
+</div>

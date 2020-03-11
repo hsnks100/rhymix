@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget version="0.2">
+	<title xml:lang="ko">사용자 검색 위젯</title>
+	<title xml:lang="en">User Search Widget</title>
+
+	<description xml:lang="ko">커뮤니티내의 사용자가 다른 사용자를 검색하실 수 있습니다. 검색대상이 많으면 많을수록 검색 속도가 느려지며 싸이트 전체가 느려질 수 있습니다.</description>
+	<description xml:lang="en">A user can search other users in the	community. Too many seach targets can slow down the search speed causing the whole site jam.</description>
+
+	<version>0.1</version>
+	<date>2011-09-30</date>
+
+	<author email_address="wndflwr@gmail.com" link="www.cyworld.com/krifle">
+		<name xml:lang="ko">바람꽃</name>
+		<name xml:lang="zh-CN">Windflower</name>
+	</author>
+	<extra_vars>
+		<group>
+			<title xml:lang="ko">검색 대상</title>
+			<title xml:lang="en">Search target</title>
+			<var id="search_target">
+				<type>select-multi-order</type>
+				<name xml:lang="ko">검색 대상</name>
+				<name xml:lang="en">Search target</name>
+				<options init="true">
+					<value>s_user_id</value>
+					<name xml:lang="ko">사용자 아이디</name>
+					<name xml:lang="en">User ID</name>
+				</options>
+				<options init="true">
+					<value>s_user_name</value>
+					<name xml:lang="ko">사용자 이름</name>
+					<name xml:lang="en">User name</name>
+				</options>
+				<options init="true">
+					<value>s_nick_name</value>
+					<name xml:lang="ko">닉네임</name>
+					<name xml:lang="en">Nick name</name>
+				</options>
+				<options>
+					<value>s_email_address</value>
+					<name xml:lang="ko">이메일 주소</name>
+					<name xml:lang="en">Email address</name>
+				</options>
+				<options>
+					<value>s_extra_vars</value>
+					<name xml:lang="ko">확장변수</name>
+					<name xml:lang="en">Extended variables</name>
+				</options>
+			</var>
+			<var id="disp_info">
+				<type>select-multi-order</type>
+				<name xml:lang="ko">출력 대상</name>
+				<name xml:lang="en">Output target</name>
+				<description xml:lang="ko">출력되는 대상을 3개 선택해 주세요.</description>
+				<description xml:lang="en">Select 3 output targets.</description>
+				<options init="true">
+					<value>user_id</value>
+					<name xml:lang="ko">사용자 아이디</name>
+					<name xml:lang="en">User ID</name>
+				</options>
+				<options init="true">
+					<value>user_name</value>
+					<name xml:lang="ko">사용자 이름</name>
+					<name xml:lang="en">User name</name>
+				</options>
+				<options init="true">
+					<value>nick_name</value>
+					<name xml:lang="ko">닉네임</name>
+					<name xml:lang="en">Nick name</name>
+				</options>
+				<options>
+					<value>email_address</value>
+					<name xml:lang="ko">이메일 주소</name>
+					<name xml:lang="en">Email address</name>
+				</options>
+				<options>
+					<value>extra_vars</value>
+					<name xml:lang="ko">확장변수</name>
+					<name xml:lang="en">Extended variables</name>
+				</options>
+				<options>
+					<value>stuid</value>
+					<name xml:lang="ko">학번</name>
+					<name xml:lang="en">Student ID</name>
+				</options>
+			</var>
+		</group>
+		<group>
+			<title xml:lang="ko">기타 변수들</title>
+			<title xml:lang="en">Extra variables</title>
+			<var id="delay_time">
+				<type>text</type>
+				<name xml:lang="ko">타이핑 지연 시간(초)</name>
+				<name xml:lang="en">Typing delay time(sec)</name>
+				<description xml:lang="ko">사용자가 검색을 할 때 텍스트 박스에 이름이나 닉네임을 칩니다.
+				치면서 타이핑을 하는 경우 설정된 시간만큼 기다린 다음 서버에 검색 요청을 합니다.
+				설정 값이 클수록 서버에 부담은 덜하지만 검색을 사용하는 사용자는 답답합니다.
+				0이거나 숫자가 아닌 값일 경우 기본으로 1을 가집니다.</description>
+				<description xml:lang="en">When users searches other users, they type the name or nickname.
+				When they type, the widget waits for the following amount of time and requests the search to the server.
+				Bigger the setting time, low load to the server, but more inconvenience to the users.
+				Default is 1</description>
+			</var>
+			<var id="sort_order">
+				<type>select</type>
+				<name xml:lang="ko">정렬 순서</name>
+				<name xml:lang="en">Sort order</name>
+				<options>
+					<value>asc</value>
+					<name xml:lang="ko">오름차순</name>
+					<name xml:lang="en">Ascending order</name>
+				</options>
+				<options>
+					<value>desc</value>
+					<name xml:lang="ko">내림차순</name>
+					<name xml:lang="en">Descending order</name>
+				</options>
+			</var>
+			<var id="sort_list">
+				<type>select</type>
+				<name xml:lang="ko">정렬 기준</name>
+				<name xml:lang="en">Sort order</name>
+				<options>
+					<value>member_srl</value>
+					<name xml:lang="ko">member_srl</name>
+					<name xml:lang="en">member_srl</name>
+				</options>
+				<options>
+					<value>user_id</value>
+					<name xml:lang="ko">사용자 아이디</name>
+					<name xml:lang="en">User ID</name>
+				</options>
+				<options>
+					<value>email_address</value>
+					<name xml:lang="ko">이메일 주소</name>
+					<name xml:lang="en">E-mail address</name>
+				</options>
+				<options>
+					<value>nick_name</value>
+					<name xml:lang="ko">닉네임</name>
+					<name xml:lang="en">Nick name</name>
+				</options>
+				<options>
+					<value>regdate</value>
+					<name xml:lang="ko">등록 일자</name>
+					<name xml:lang="en">Registered date</name>
+				</options>
+				<options>
+					<value>list_order</value>
+					<name xml:lang="ko">리스트 오더</name>
+					<name xml:lang="en">List order</name>
+				</options>
+			</var>
+			<var id="list_count">
+				<type>text</type>
+				<name xml:lang="ko">출력 리스트 수</name>
+				<name xml:lang="en">List count</name>
+				<description xml:lang="ko">한 번에 출력되는 리스트의 수를 입력해 주세요. (기본 5)</description>
+				<description xml:lang="en">Input the number of list that prints at once. (default = 5)</description>
+			</var>
+			<var id="width">
+				<type>text</type>
+				<name xml:lang="ko">가록 길이(px)</name>
+				<name xml:lang="en">Width(px)</name>
+				<description xml:lang="ko">가로 길이를 입력해 주세요. (기본 200px)</description>
+				<description xml:lang="en">Width of the widget. (default 200px)</description>
+			</var>
+		</group>
+	</extra_vars>
+</widget>

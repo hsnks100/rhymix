@@ -1,0 +1,83 @@
+<!--// colorset의 값에 따라 css 파일을 import 한다 -->
+<!--@if($colorset=="black")-->
+    <!--%import("css/login.css")-->
+<!--@elseif($colorset=="white")-->
+    <!--%import("css/login.css")-->
+<!--@else-->
+    <!--%import("css/login.css")-->
+<!--@end-->
+
+<!--%import("./filter/login.xml")-->
+<!--%import("./filter/openid_login.xml")-->
+<!--%import("./js/login.js")-->
+
+<script type="text/javascript">
+    var keep_signed_msg = "{$lang->about_keep_signed}";
+    xAddEventListener(window, "load", function(){ doFocusUserId("fo_login_widget"); });
+</script>
+<!--@if(!$is_logged)-->
+<div id="left_login_form">
+<fieldset id="login" class="login_{$colorset}">
+<legend>{$lang->cmd_login}</legend>
+<form action="./" method="post" ruleset="@login" id="fo_login_widget">
+	
+	<input type="hidden" name="act" value="procMemberLogin" />
+	<input type="hidden" name="success_return_url" value="{getRequestUriByServerEnviroment()}" />
+    <div class="idpwWrap">
+       <ul>
+				<li>
+					<input id="input_id" name="user_id" type="text" title="user id" value="ID"  onfocus="javascript:if(this.value=='ID'){this.value=''}" onblur="javascript:if(this.value==''){this.value='ID'}"
+ />
+				</li>
+				<li>
+					<input id="input_password" name="password" type="password" title="password" value="password" onfocus="javascript:if(this.value=='password'){this.value=''}" onblur="javascript:if(this.value==''){this.value='password'}" />
+				</li>
+			</ul>
+	<p class="left_save">
+				<input type="checkbox" name="keep_signed" id="left_keep" value="Y" onclick="if(this.checked) return confirm(keep_signed_msg);" />
+				<br />
+				<span>
+				<label for="left_keep"><img src="image/keep_login.gif" alt="keep login" /></label>
+				</span> </p>
+      <input class="left_button_login" id="left_button_login" name="" type="submit" value=" " style="cursor:pointer;" />
+    </div>
+    <!--@if($member_config->enable_ssl=='Y')-->
+    <p class="securitySignIn <!--@if($ssl_mode)-->SSL<!--@else-->noneSSL<!--@end-->">
+        <a href="#" onclick="toggleSecuritySignIn(); return false;">{$lang->security_sign_in}</a>
+    </p>
+    <!--@end-->
+
+</form> 
+</fieldset>
+	<fieldset id="left_open_login">
+		<legend>{$lang->cmd_login}</legend>
+		<form action="{getUrl('module','member','act','procMemberOpenIDLogin')}" method="post" onsubmit="return procFilter(this, openid_login)" >
+			<input type="text" name="openid" class="left_openid_user_id" value="openID" onfocus="javascript:if(this.value=='openID'){this.value=''}" onblur="javascript:if(this.value==''){this.value='openID'}" />
+			<input class="left_open_button_login" name="" type="submit" value=" " style="cursor:pointer;" />
+		</form>
+	</fieldset>
+	<ul class="left_help">
+		<li class="first"><a href="{getUrl('act','dispMemberSignUpForm')}"><img src="image/join.gif" alt="회원가입" /></a></li>
+		<li><a href="{getUrl('act','dispMemberFindAccount')}"><img src="image/find.gif" alt="비민번호 찾기" /></a></li>
+		<li><a href="{getUrl('act','dispMemberResendAuthMail')}"><img src="image/email.gif" alt="인증이메일 다시보내기" /></a></li>
+	</ul>
+</div>
+<!--@else-->
+<div id="member_information">
+	<ul class="info">
+		<li><a href="{getUrl('act','dispMemberInfo')}" title="회원정보 보기"><img src="image/info.gif" alt="회원정보 보기" /></a></li>
+		<li><a href="{getUrl('act','dispMemberScrappedDocument')}" title="스크랩 보기"><img src="image/scrab.gif" alt="스크랩 보기" /></a></li>
+		<li><a href="{getUrl('act','dispMemberSavedDocument')}" title="저장함 보기"><img src="image/saved.gif" alt="저장함 보기" /></a></li>
+		<li><a href="{getUrl('act','dispMemberOwnDocument')}" title="작성글 보기"><img src="image/write.gif" alt="작성글 보기" /></a></li>
+		<li><a href="{getUrl('act','dispCommunicationFriend')}" title="친구 보기"><img src="image/friend.gif" alt="친구 보기" /></a></li>
+		<li><a href="{getUrl('act','dispCommunicationMessages')}" title="쪽지함 보기"><img src="image/message.gif" alt="쪽지함 보기" /></a></li>
+	</ul>
+	<ul class="m_btn">
+		<li><a href="{getUrl('act','dispMemberModifyInfo')}" title="edit"><img src="image/edit.gif" alt="edit" /></a></li>
+		<li><a href="{getUrl('act','dispMemberLogout')}" title="로그아웃"><img src="image/logout.gif" alt="로그아웃" /></a></li>
+	</ul>
+</div>
+<!--@end-->
+<script type="text/javascript">
+  xAddEventListener(window, "load", function(){ doFocusUserId("fo_login_widget"); });
+</script>

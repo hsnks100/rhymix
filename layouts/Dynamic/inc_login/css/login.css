@@ -1,0 +1,59 @@
+@charset "utf-8";
+#login_form * { margin:0; padding:0; }
+/*login form*/
+#login_form { display:none; position:absolute; right:-20px; top:30px; width:200px; height:170px; padding:18px 0 0 12px; z-index:9999; color:#9A9A9A; }
+#login_form ul { overflow:hidden; height:100%; }
+#login_form ul li { font-size:15px; color:#000; }
+#login_form ul li input { width:133px; height:26px; padding:10px 0 0 10px; background:url(../image/input_bg.png) no-repeat left top; border:none; color:#494949; }
+ @media screen and (min-width:0px) {
+ #login_form ul li input {
+ padding:5px 0 4px 10px;
+}
+}
+
+/*로그인전 버튼*/
+#ac_button { position:relative; right:0; top:10px; overflow:hidden; height:100%; }
+#ac_button li { float:right; }
+#ac_button li a { display:block; text-decoration:none; color:#D9D9D9; margin-left:5px;}
+
+/*로그인후 버튼*/
+.loged_show li { float:left; }
+.loged_show li a { display:block; text-decoration:none; margin-left:5px; color:#2D2D2D; font-family:NANUMGOTHIC }
+.loged_show li a:hover { color:#9A9A9A; }
+
+/*회원가입 아이디/비밀번호찾기 인증이메일 재발송*/
+#login_form .help { position:absolute; top:145px; left:10px; width:236px;
+}
+#login_form .help li { float:left; padding:0 4px; line-height:10px; background:url(../image/li_bg.gif) no-repeat left 4px; *background:url(../image/li_bg.gif) no-repeat left 5px;
+}
+#login_form .help li.first { background:none; padding-left:0; margin-left:0; }
+.button_login { position:absolute; top:56px; _top:59px; left:155px; height:30px; width:40px; border:0; background:url(../image/login_btn.png) no-repeat left top; }
+
+/*로그인 유지*/
+p.save { overflow:hidden; position:absolute; left:155px; top:24px; _top:20px; width:50px; }
+p.save span { display:block; margin-left:-2px; margin-top:3px; *margin:-2px 0 0 0; }
+fieldset { border:0; }
+legend { display:none; }
+
+/*form colorset*/
+.blue #login_form { background:url(../image/login_bg_blue.png) no-repeat left top; }
+.red #login_form { background:url(../image/login_bg_red.png) no-repeat left top; }
+.purple #login_form { background:url(../image/login_bg_purple.png) no-repeat left top; }
+.gray #login_form { background:url(../image/login_bg_gray.png) no-repeat left top; }
+
+/*openID form colorset*/
+.blue .open_button_login, .blue .button_login { background:url(../image/login_btn_blue.png) no-repeat left top; }
+.red .open_button_login, .red .button_login { background:url(../image/login_btn_red.png) no-repeat left top; }
+.purple .open_button_login, .purple .button_login { background:url(../image/login_btn_purple.png) no-repeat left top; }
+.gray .open_button_login, .gray .button_login { background:url(../image/login_btn_gray.png) no-repeat left top; }
+
+/*openID*/
+#login_form .openid_user_id { position:absolute; bottom:47px; width:133px; height:26px; padding:10px 0 0 10px; background:url(../image/input_bg.png) no-repeat left top; border:none; color:#494949; }
+.open_button_login { position:absolute; left:155px; bottom:56px; width:40px; height:30px; padding:10px 0 0 10px; background:url(../image/input_bg.png) no-repeat left top; border:none; color:#494949; }
+.open_button_login { top:107px; }
+ @media screen and (min-width:0px) {
+ #login_form ul li input {
+ padding:5px 0 4px 10px;
+}
+#login_form .openid_user_id { position:absolute; bottom:47px; width:133px; height:34px; padding:2px 0 0 10px; background:url(../image/input_bg.png) no-repeat left top; border:none; color:#494949; }
+}

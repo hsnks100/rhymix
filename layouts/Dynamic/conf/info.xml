@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="0.2">
+	<title xml:lang="ko">다이나믹</title>
+	<title xml:lang="en">Dynamic</title>
+	<description xml:lang="ko">다이나믹 레이아웃
+		디자인 : sjap97
+		퍼블리싱 : sjap97
+		레이아웃 제작 : sjap97</description>
+	<description xml:lang="en">Dynamic layout
+		Designer : sjap97
+		HTML/CSS : sjap97
+		Layout producer : sjap97</description>
+	<version>3.0</version>
+	<date>2012-01-16</date>
+	<author email_address="sjap97@naver.com" link="http://sjap97.dothome.co.kr/">
+		<name xml:lang="ko">sjap97</name>
+		<name xml:lang="en">sjap97</name>
+	</author>
+	<extra_vars>
+			<group>
+			<title>기본설정</title>
+			<var name="mainorsub" type="select">
+				<title xml:lang="ko">레이아웃 형태</title>
+				<description xml:lang="ko">메인/서브=고정폭:960px</description>
+				<options value="none">
+					<title xml:lang="ko">메인(1단)</title>
+				</options>
+				<options value="block">
+					<title xml:lang="ko">서브(2단)</title>
+				</options>
+			</var>
+			<var name="color" type="select">
+				<title xml:lang="ko">컬러셋</title>
+				<options value="blue">
+					<title xml:lang="ko">블루</title>
+				</options>
+				<options value="purple">
+					<title xml:lang="ko">퍼플</title>
+				</options>
+				<options value="red">
+					<title xml:lang="ko">레드</title>
+				</options>
+				<options value="gray">
+					<title xml:lang="ko">그레이</title>
+				</options>
+			</var>
+				<var name="menu_style" type="select">
+				<title xml:lang="ko">메인메뉴 스타일</title>
+				<options value="big">
+					<title xml:lang="ko">큰메뉴</title>
+				</options>
+				<options value="small">
+					<title xml:lang="ko">작은메뉴</title>
+				</options>
+			</var>
+			<var name="page_background" type="image">
+				<title xml:lang="ko">배경 이미지</title>
+			</var>
+			<var name="footer_logo" type="select">
+				<title xml:lang="ko">푸터 로고</title>
+				<options value="yes">
+					<title xml:lang="ko">사용함</title>
+				</options>
+				<options value="no">
+					<title xml:lang="ko">사용안함</title>
+				</options>
+			</var>
+			<var name="f_logo_img" type="image">
+				<title xml:lang="ko">푸터 로고 이미지</title>
+			</var>
+			<var name="footer_text" type="textarea">
+				<title xml:lang="ko">카피라이트</title>
+				<description xml:lang="ko">Footer 부분에 원하는 내용을 적어주세요.</description>
+			</var>
+		</group>
+		
+		<group>
+			<title>로고설정</title>
+		<var name="logo_img" type="image">
+				<title xml:lang="ko">로고 이미지 등록</title>
+			</var>
+			<var name="logo_left" type="text">
+				<title xml:lang="ko">로고위치(좌우)</title>
+				<description xml:lang="ko">예와 같이 숫자만 입력 / 예) 325</description>
+			</var>
+			<var name="logo_top" type="text">
+				<title xml:lang="ko">로고위치(상하)</title>
+				<description xml:lang="ko">예와 같이 숫자만 입력 / 예) 25</description>
+			</var>
+			<var name="logo_url" type="text">
+				<title xml:lang="ko">로고 링크 URL</title>
+			</var>
+			<var name="search_show" type="select">
+				<title xml:lang="ko">검색창 출력</title>
+				<options value="block">
+					<title xml:lang="ko">보이기</title>
+				</options>
+				<options value="none">
+					<title xml:lang="ko">감추기</title>
+				</options>
+			</var>
+		</group>
+		
+		
+		<group>
+			<title>메인 배너 설정</title>
+			<var name="content_top_style" type="select">
+				<title xml:lang="ko">메인 배너 스타일</title>
+				<options value="none">
+					<title xml:lang="ko">사용안함</title>
+				</options>
+				<options value="one">
+					<title xml:lang="ko">메인슬라이드 배너</title>
+				</options>
+				<options value="two">
+					<title xml:lang="ko">슬라이드 배너 + 정지 이미지</title>
+				</options>
+			</var>
+			<var name="banner_top_change" type="select">
+				<title xml:lang="ko">배너 순서 설정</title>
+				<description xml:lang="ko">메인 배너 스타일을 '슬라이드 배너 + 정지 이미지'로 설정하였을 경우만 해당합니다.</description>
+				<options value="N">
+					<title xml:lang="ko">배너 왼쪽_정지이미지 오른쪽</title>
+				</options>
+				<options value="Y">
+					<title xml:lang="ko">배너 오른쪽_정지이미지 왼쪽</title>
+				</options>
+			</var>
+			<var name="content_top_width" type="text">
+				<title xml:lang="ko">배너 사이즈 조정</title>
+				<description xml:lang="ko">원하는 배너 사이즈를 입력하세요. 메인 배너 스타일을 '슬라이드 배너 + 정지 이미지'로 설정하였을 경우만 해당합니다.</description>
+			</var>
+			<var name="slide_mode" type="select">
+				<title xml:lang="ko">슬라이드 전환 효과 설정</title>
+				<options value="mode01">
+					<title xml:lang="ko">페이드인/아웃</title>
+				</options>
+				<options value="mode02">
+					<title xml:lang="ko">상하이동</title>
+				</options>
+				<options value="mode03">
+					<title xml:lang="ko">좌우이동</title>
+				</options>
+			</var>
+			<var name="slide_speed" type="text">
+				<title xml:lang="ko">슬라이드 배너 전환속도</title>
+				<description xml:lang="ko">1초는 '1000' , 2초는 '2000'  ''안의 숫자만 적어주세요. (기본값 1000))</description>
+			</var>
+			<var name="slide_wait" type="text">
+				<title xml:lang="ko">슬라이드 배너 정지 시간</title>
+				<description xml:lang="ko">1초는 '1000' , 5초는 '5000'  ''안의 숫자만 적어주세요. (기본값 3000)</description>
+			</var>
+		</group>
+		<group>
+			<title>배너 이미지 첨부</title>
+			<var name="slide_img01" type="image">
+				<title xml:lang="ko">1번 이미지</title>
+			</var>
+			<var name="slide_img01_link" type="text">
+				<title xml:lang="ko">1번 이미지 링크 URL</title>
+			</var>
+			<var name="slide_img01_target" type="select">
+				<title xml:lang="ko">창 열기 설정</title>
+				<options value="_blank">
+					<title xml:lang="ko">새창으로 열기</title>
+				</options>
+				<options value="_self">
+					<title xml:lang="ko">현재창으로 열기</title>
+				</options>
+			</var>
+			<var name="slide_img01_alt" type="text">
+				<title xml:lang="ko">1번 이미지 alt 값</title>
+			</var>
+			<var name="slide_img02" type="image">
+				<title xml:lang="ko">2번 이미지</title>
+			</var>
+			<var name="slide_img02_link" type="text">
+				<title xml:lang="ko">2번 이미지 링크 URL</title>
+			</var>
+				<var name="slide_img02_target" type="select">
+				<title xml:lang="ko">창 열기 설정</title>
+				<options value="_blank">
+					<title xml:lang="ko">새창으로 열기</title>
+				</options>
+				<options value="_self">
+					<title xml:lang="ko">현재창으로 열기</title>
+				</options>
+			</var>
+			<var name="slide_img02_alt" type="text">
+				<title xml:lang="ko">2번 이미지 alt 값</title>
+			</var>
+			<var name="slide_img03" type="image">
+				<title xml:lang="ko">3번 이미지</title>
+			</var>
+			<var name="slide_img03_link" type="text">
+				<title xml:lang="ko">3번 이미지 링크 URL</title>
+			</var>
+			<var name="slide_img03_target" type="select">
+				<title xml:lang="ko">창 열기 설정</title>
+				<options value="_blank">
+					<title xml:lang="ko">새창으로 열기</title>
+					</options>
+					<options value="_self">
+					<title xml:lang="ko">현재창으로 열기</title>
+					</options>
+			</var>
+			<var name="slide_img03_alt" type="text">
+				<title xml:lang="ko">3번 이미지 alt 값</title>
+			</var>
+			<var name="content_another_top" type="image">
+				<title xml:lang="ko">정지 이미지 등록</title>
+			</var>
+			<var name="content_another_top_link" type="text">
+				<title xml:lang="ko">정지 이미지 링크 URL</title>
+			</var>
+		</group>
+		<group>
+			<title>서브레이아웃설정_왼쪽메뉴 상단</title>
+			<var name="left_login" type="select">
+				<title xml:lang="ko">왼쪽메뉴 상단 로그인창</title>
+				<options value="yes">
+					<title xml:lang="ko">보이기</title>
+					</options>
+					<options value="no">
+					<title xml:lang="ko">감추기</title>
+					</options>				
+			</var>		
+			<var name="left_menu_adv01" type="image">
+				<title xml:lang="ko">왼쪽메뉴상단 이미지</title>
+			</var>
+			<var name="adv01_link" type="text">
+				<title xml:lang="ko">링크URL</title>
+			</var>
+			<var name="adv01_alt" type="text">
+				<title xml:lang="ko">Ait 값</title>
+			</var>
+			<var name="widgetbox01_title" type="text">
+				<title xml:lang="ko">위젯 타이틀</title>
+			</var>
+			<var name="widgetbox01" type="textarea">
+				<title xml:lang="ko">위젯코드</title>
+			</var>
+			<var name="widgetbox01_border" type="select">
+				<title xml:lang="ko">위젯코드입력창 테두리 설정</title>
+				<options value="no">
+					<title xml:lang="ko">감추기</title>
+					</options>
+					<options value="yes">
+					<title xml:lang="ko">보이기</title>
+					</options>				
+			</var>
+		</group>
+		<group>
+			<title>서브레이아웃설정_왼쪽메뉴 하단</title>
+			<var name="left_menu_adv02" type="image">
+				<title xml:lang="ko">왼쪽메뉴하단 이미지1</title>
+			</var>
+			<var name="adv02_link" type="text">
+				<title xml:lang="ko">링크URL</title>
+			</var>
+			<var name="adv02_alt" type="text">
+				<title xml:lang="ko">Ait 값</title>
+			</var>
+			<var name="widgetbox02_title" type="text">
+				<title xml:lang="ko">위젯 타이틀</title>
+			</var>
+			<var name="widgetbox02" type="textarea">
+				<title xml:lang="ko">위젯코드</title>
+			</var>
+			<var name="widgetbox02_border" type="select">
+				<title xml:lang="ko">위젯 테두리</title>
+				<options value="no">
+					<title xml:lang="ko">감추기</title>
+					</options>
+					<options value="yes">
+					<title xml:lang="ko">보이기</title>
+					</options>
+			</var>
+			<var name="left_menu_adv03" type="image">
+				<title xml:lang="ko">왼쪽메뉴하단 이미지2</title>
+			</var>
+			<var name="adv03_link" type="text">
+				<title xml:lang="ko">링크URL</title>
+			</var>
+			<var name="adv03_alt" type="text">
+				<title xml:lang="ko">Ait 값</title>
+			</var>
+			<var name="widgetbox03_title" type="text">
+				<title xml:lang="ko">위젯 타이틀</title>
+			</var>
+			<var name="widgetbox03" type="textarea">
+				<title xml:lang="ko">위젯코드</title>
+			</var>
+			<var name="widgetbox03_border" type="select">
+				<title xml:lang="ko">위젯 테두리</title>
+					<options value="no">
+					<title xml:lang="ko">감추기</title>
+					</options>
+					<options value="yes">
+					<title xml:lang="ko">보이기</title>
+					</options>
+			</var>
+			<var name="left_menu_adv04" type="image">
+				<title xml:lang="ko">왼쪽메뉴하단 이미지3</title>
+			</var>
+			<var name="adv04_link" type="text">
+				<title xml:lang="ko">링크URL</title>
+			</var>
+			<var name="adv04_alt" type="text">
+				<title xml:lang="ko">Ait 값</title>
+			</var>
+			<var name="widgetbox04_title" type="text">
+				<title xml:lang="ko">위젯 타이틀</title>
+			</var>
+			<var name="widgetbox04" type="textarea">
+				<title xml:lang="ko">위젯코드</title>
+			</var>
+			<var name="widgetbox04_border" type="select">
+				<title xml:lang="ko">위젯 테두리</title>
+				<options value="no">
+					<title xml:lang="ko">감추기</title>
+					</options>
+					<options value="yes">
+					<title xml:lang="ko">보이기</title>
+					</options>
+			</var>
+			<var name="left_menu_adv05" type="image">
+				<title xml:lang="ko">왼쪽메뉴하단 이미지4</title>
+			</var>
+			<var name="adv05_link" type="text">
+				<title xml:lang="ko">링크URL</title>
+			</var>
+			<var name="adv05_alt" type="text">
+				<title xml:lang="ko">Ait 값</title>
+			</var>
+			<var name="widgetbox05_title" type="text">
+				<title xml:lang="ko">위젯 타이틀</title>
+			</var>
+			<var name="widgetbox05" type="textarea">
+				<title xml:lang="ko">위젯코드</title>
+			</var>
+			<var name="widgetbox05_border" type="select">
+				<title xml:lang="ko">위젯 테두리</title>
+					<options value="no">
+					<title xml:lang="ko">감추기</title>
+					</options>
+					<options value="yes">
+					<title xml:lang="ko">보이기</title>
+					</options>
+			</var>
+			<var name="left_menu_adv06" type="image">
+				<title xml:lang="ko">왼쪽메뉴하단 이미지5</title>
+			</var>
+			<var name="adv06_link" type="text">
+				<title xml:lang="ko">링크URL</title>
+			</var>
+			<var name="adv06_alt" type="text">
+				<title xml:lang="ko">Ait 값</title>
+			</var>
+			<var name="widgetbox06_title" type="text">
+				<title xml:lang="ko">위젯 타이틀</title>
+			</var>
+			<var name="widgetbox06" type="textarea">
+				<title xml:lang="ko">위젯코드</title>
+			</var>
+			<var name="widgetbox06_border" type="select">
+				<title xml:lang="ko">위젯 테두리</title>
+				<options value="no">
+					<title xml:lang="ko">감추기</title>
+					</options>
+					<options value="yes">
+					<title xml:lang="ko">보이기</title>
+					</options>
+			</var>
+		</group>
+		<group>
+			<title>로그인 아이콘 등록</title>
+			<var name="login_login" type="image">
+				<title xml:lang="ko">로그인 아이콘</title>
+			</var>
+			<var name="login_join" type="image">
+				<title xml:lang="ko">회원가입 아이콘</title>
+			</var>
+			<var name="login_admin" type="image">
+				<title xml:lang="ko">관리자 페이지 아이콘</title>
+			</var>
+			<var name="login_info" type="image">
+				<title xml:lang="ko">회원정보 아이콘</title>
+			</var>
+			<var name="login_logout" type="image">
+				<title xml:lang="ko">로그아웃 아이콘</title>
+			</var>
+		</group>
+		
+	</extra_vars>
+	<menus>
+		<menu name="main_menu" maxdepth="3" default="true">
+			<title xml:lang="ko">상단 메뉴</title>
+			<title xml:lang="en">Top menu</title>
+		</menu>
+		<menu name="left_menu" maxdepth="3" default="true">
+			<title xml:lang="ko">레프트 메뉴</title>
+			<title xml:lang="en">Left menu</title>
+		</menu>
+		<menu name="footer_menu" maxdepth="3" default="true">
+			<title xml:lang="ko">푸터 메뉴</title>
+			<title xml:lang="en">Footer menu</title>
+		</menu>
+	</menus>
+</layout>

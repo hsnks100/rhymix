@@ -231,7 +231,7 @@ class memberAdminView extends member
 		$option->editor_toolbar_hide = 'Y';
 		Context::set('editor', $oEditorModel->getEditor(0, $option));
 		
-		$signupForm = $config->signupForm;
+		$signupForm = $config->signupForm; 
 		foreach($signupForm as $val)
 		{
 			if($val->name == 'user_id')
@@ -269,6 +269,7 @@ class memberAdminView extends member
 			$config->phone_number_default_country = '82';
 		}
 
+        // print_r($config->signupForm);
 		$this->setTemplateFile('signup_config');
 	}
 

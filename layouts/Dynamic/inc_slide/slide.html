@@ -1,0 +1,82 @@
+<!--%import("./css/slide.css")-->
+<!--%import("./js/jquery.mousewheel.js")-->
+<!--%import("./js/slide.js")-->
+<!--@if(!$layout_info->slide_height)-->
+{@ $slide_height = 180}
+<!--@else-->
+{@ $slide_height = $layout_info->slide_height}
+<!--@end-->
+<!--@if(!$layout_info->slide_width)-->
+	
+	<!--@if($layout_info->content_top_style == 'one')-->
+	{@ $slide_width = 875}
+	<!--@else-->
+	{@ $slide_width = $con_top_width}
+	<!--@end-->
+<!--@else-->
+{@ $slide_width = $layout_info->slide_height}
+<!--@end-->
+
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+								
+	$("#main_menu").wss_slide({
+		mode: "{$layout_info->slide_mode}",
+		<!--@if($layout_info->slide_wait)-->speedd: "{$layout_info->slide_speed}"<!--@else-->speedd: "500"<!--@end-->,
+		<!--@if($layout_info->slide_wait)-->wait_time: "{$layout_info->slide_wait}"<!--@else-->wait_time: "3000"<!--@end-->,
+		slide_height:"{$slide_height}",
+		control_middle:"Y"
+		
+	})
+
+})
+
+</script>
+
+<style type="text/css">
+#main_slide .main_slide li { _margin-bottom:-3px; }
+#main_slide .main_slide li img { width:{$slide_width}px; height:{$slide_height}px; }
+#main_slide { height:250px; }
+<!--@if($layout_info->slide_mode=="mode01")-->
+#main_slide .main_slide li { position:absolute; left:0; top:0; height:{$slide_height}px; overflow:hidden; }
+<!--@end-->
+<!--@if($layout_info->slide_mode=="mode02")-->
+#main_slide ul.main_slide li { display:block; width:{$slide_width}px; height:{$slide_height}px; }
+<!--@end-->
+<!--@if($layout_info->slide_mode=="mode03")-->
+#main_slide ul.main_slide { width:10000px; }
+#main_slide .main_slide li { float:left; overflow:hidden; width:{$slide_width}px; height:{$slide_height}px; }
+<!--@end-->
+
+/*slide top bottom css start*/
+/*slide top bottom css end*/
+.color_view li { width:10px; height:10px; float:left; }
+.patten_view li { width:30px; height:30px; float:left; overflow:hidden; }
+.patten_view li img { width:30px; height:30px; }
+
+</style>
+
+
+<div id="main_slide" style="width:{$slide_width}px; height:{$slide_height}px;">
+	<ul class="main_slide" id="my_img_slide">
+		<li cond="$layout_info->slide_img01"><a target="{$layout_info->slide_img01_target}" title="{$layout_info->slide_img01_alt}" href="{$layout_info->slide_img01_link}"><img alt="{$layout_info->slide_img01_alt}" src="{$layout_info->slide_img01}" /></a></li>
+		<li cond="$layout_info->slide_img02"><a target="{$layout_info->slide_img02_target}" title="{$layout_info->slide_img02_alt}" href="{$layout_info->slide_img02_link}"><img alt="{$layout_info->slide_img02_alt}" src="{$layout_info->slide_img02}" /></a></li>
+		<li cond="$layout_info->slide_img03"><a target="{$layout_info->slide_img03_target}" title="{$layout_info->slide_img03_alt}" href="{$layout_info->slide_img03_link}"><img alt="{$layout_info->slide_img03_alt}" src="{$layout_info->slide_img03}" /></a></li>
+		
+	</ul>
+	<ul class="main_slide_control">
+		<li cond="$layout_info->slide_img01"><img alt="" src='layouts/Dynamic/inc_slide/img/control.png' /><img alt="" class='control_over' src='layouts/Dynamic/inc_slide/img/control_on.png' /></li>
+		<li cond="$layout_info->slide_img02"><img alt="" src='layouts/Dynamic/inc_slide/img/control.png' /><img alt="" class='control_over' src='layouts/Dynamic/inc_slide/img/control_on.png' /></li>
+		<li cond="$layout_info->slide_img03"><img alt="" src='layouts/Dynamic/inc_slide/img/control.png' /><img alt="" class='control_over' src='layouts/Dynamic/inc_slide/img/control_on.png' /></li>
+	</ul>
+	<!-- ============ left right button ==========
+	<span class="go_back"><img src="img/zuo.png" alt="prev" /><img class="zuo_over" src="img/zuo_over.png" alt="prev" /></span>
+	<span class="go_after"><img src="img/you.png" alt="next" /><img class="you_over" src="img/you_over.png" alt="next" /></span>
+	-->
+	
+	
+</div>
+
+
+

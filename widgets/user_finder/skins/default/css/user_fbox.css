@@ -1,0 +1,100 @@
+@CHARSET "EUC-KR";
+.user_finder_box {
+	clear:both;
+}
+.user_finder_box .inputbox {
+	border-top:#c3c3c3 1px solid;
+	border-left:#c3c3c3 1px solid;
+	border-bottom:#c3c3c3 1px solid;
+	border-right:#c3c3c3 0px solid;
+	color:#5f5f5f;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+.user_finder_box .btnClose {
+	border-top:1px #c3c3c3 solid;
+	border-right:1px #c3c3c3 solid;
+	border-bottom:1px #c3c3c3 solid;
+	background-image:url('../img/btnClose_0.png');
+	width:21px;
+	height:21px;
+	cursor:pointer;
+	margin-top:2px;
+	position:absolute;
+}
+.user_finder_box .btnClose:hover {
+	background-image:url('../img/btnClose_1.png');
+}
+.user_finder_box .see_more {
+	height:14px;
+	size:14px;
+	border-top:#87CEEB 1px solid;
+	border-left:#87CEEB 1px solid;
+	border-right:#87CEEB 1px solid;
+	border-bottom:#87CEEB 1px solid;
+	text-align:center;
+	background-color:#E0FFFF;
+	padding-top:4px;
+	padding-bottom:4px;
+	cursor:pointer;
+	width:100%;
+}
+.user_finder_box .more_options .see_more:hover {
+	background-color:#F0FFFF;
+}
+.user_finder_box .profile {
+	border: #C3c3c3 1px solid;
+	float:left;
+}
+.user_finder_box .user_info {
+	cursor:pointer;
+	clear:both;
+	height:63px;
+	width:100%;
+}
+.user_finder_box .darkened {
+	background-color:#FFFAFA;
+}
+.user_finder_box .info_cont {
+	border-top:#e4e4e4 1px solid;
+	border-right:#e4e4e4 1px solid;
+	height:63px;
+}
+.user_finder_box .user_info img {
+	width:55px;
+	height:55px;
+	padding:3px;
+	background-color:#FFFFFF;
+	margin-right:7px;
+}
+.user_finder_box .user_id {
+	padding-top:3px;
+	padding-bottom:3px;
+	overflow:hidden;
+	height:14px;
+}
+.user_finder_box .user_name {
+	padding-top:3px;
+	padding-bottom:3px;
+	overflow:hidden;
+	height:14px;
+	font-weight:bold;
+}
+.user_finder_box .nick_name {
+	padding-top:3px;
+	padding-bottom:3px;
+	overflow:hidden;
+	height:14px;
+}
+.user_finder_box .email_address {
+	padding-top:3px;
+	padding-bottom:3px;
+	overflow:hidden;
+	height:14px;
+}
+.user_finder_box .stuid {
+	padding-top:3px;
+	padding-bottom:3px;
+	overflow:hidden;
+	height:14px;
+}

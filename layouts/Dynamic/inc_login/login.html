@@ -1,0 +1,108 @@
+<!--// colorset의 값에 따라 css 파일을 import 한다 -->
+<!--@if($colorset=="black")-->
+    <!--%import("css/login.css")-->
+<!--@elseif($colorset=="white")-->
+    <!--%import("css/login.css")-->
+<!--@else-->
+    <!--%import("css/login.css")-->
+<!--@end-->
+{@ $member_config = MemberModel::getMemberConfig(); }
+<!--%import("./filter/login.xml")-->
+<!--%import("./filter/openid_login.xml")-->
+<!--%import("./js/login.js")-->
+
+<script type="text/javascript">
+    var keep_signed_msg = "{$lang->about_keep_signed}";
+    xAddEventListener(window, "load", function(){ doFocusUserId("fo_login_widget"); });
+</script>
+<!--@if(!$is_logged)-->
+<ul id="ac_button">
+	<li><a href="{getUrl('act','dispMemberSignUpForm')}" title="회원가입">
+		<!--@if($layout_info->login_join)-->
+		<img src="{$layout_info->login_join}" alt="회원가입" />
+		<!--@else-->
+		<img src="./image/login_{$layout_info->color}.gif" alt="회원가입" />
+		<!--@end-->
+		</a></li>
+	<li><a class="ac_login" href="#" title="로그인">
+		<!--@if($layout_info->login_login)-->
+		<img src="{$layout_info->login_login}" alt="로그인" />
+		<!--@else-->
+		<img src="./image/login_{$layout_info->color}.gif" alt="로그인" />
+		<!--@end-->
+		</a></li>
+</ul>
+<div id="login_form">
+<fieldset id="login" class="login_{$colorset}">
+<legend>{$lang->cmd_login}</legend>
+<form action="./" method="post" ruleset="@login" id="fo_login_widget">
+	
+	<input type="hidden" name="act" value="procMemberLogin" />
+	<input type="hidden" name="success_return_url" value="{getRequestUriByServerEnviroment()}" />
+    <div class="idpwWrap">
+       <ul>
+				<li>
+					<input id="input_id" name="user_id" type="text" title="user id" value="ID"  onfocus="javascript:if(this.value=='ID'){this.value=''}" onblur="javascript:if(this.value==''){this.value='ID'}"
+ />
+				</li>
+				<li>
+					<input id="input_password" name="password" type="password" title="password" value="password" onfocus="javascript:if(this.value=='password'){this.value=''}" onblur="javascript:if(this.value==''){this.value='password'}" />
+				</li>
+			</ul>
+	<p class="save">
+				<input type="checkbox" name="keep_signed" id="keep" value="Y" onclick="if(this.checked) return confirm(keep_signed_msg);" />
+				<br />
+				<span>
+				<label for="keep"><img src="image/remember.png" alt="keep login" /></label>
+				</span> </p>
+       <input class="button_login" id="button_login" name="" type="submit" value=" " style="cursor:pointer;" />
+    </div>
+    <!--@if($member_config->enable_ssl=='Y')-->
+    <p class="securitySignIn <!--@if($ssl_mode)-->SSL<!--@else-->noneSSL<!--@end-->">
+        <a href="#" onclick="toggleSecuritySignIn(); return false;">{$lang->security_sign_in}</a>
+    </p>
+    <!--@end-->
+
+</form> 
+</fieldset>
+	<fieldset id="open_login">
+		<legend>{$lang->cmd_login}</legend>
+		<form action="{getUrl('module','member','act','procMemberOpenIDLogin')}" method="post" onsubmit="return procFilter(this, openid_login)" >
+			<input type="text" name="openid" class="openid_user_id" value="openID" onfocus="javascript:if(this.value=='openID'){this.value=''}" onblur="javascript:if(this.value==''){this.value='openID'}" />
+			<input class="open_button_login" name="" type="submit" value=" " style="cursor:pointer;" />
+		</form>
+	</fieldset>
+	<ul class="help">
+		<li class="first"><a href="{getUrl('act','dispMemberSignUpForm')}"><img src="image/join.png" alt="회원가입" /></a></li>
+		<li><a href="{getUrl('act','dispMemberFindAccount')}"><img src="image/find.png" alt="비민번호 찾기" /></a></li>
+		<li><a href="{getUrl('act','dispMemberResendAuthMail')}"><img src="image/email.png" alt="인증이메일 다시보내기" /></a></li>
+	</ul>
+</div>
+<!--@else-->
+<ul class="loged_show">
+	<li><a href="admin" target="_blank" title="관리자 페이지">
+		<!--@if($layout_info->login_admin)-->
+		<img src="{$layout_info->login_admin}" alt="관리자페이지" />
+		<!--@else-->
+		<img src="./image/login_{$layout_info->color}.gif" alt="관리자페이지" />
+		<!--@end-->
+		</a></li>
+	<li><a href="{getUrl('act','dispMemberInfo')}" title="회원정보">
+		<!--@if($layout_info->login_info)-->
+		<img src="{$layout_info->login_info}" alt="회원정보" />
+		<!--@else-->
+		<img src="./image/login_{$layout_info->color}.gif" alt="회원정보" />
+		<!--@end-->
+		</a></li>
+	<li class="btn_login_logged"> <a href="{getUrl('act','dispMemberLogout')}" title="로그아웃">
+		<!--@if($layout_info->login_logout)-->
+		<img src="{$layout_info->login_logout}" alt="로그아웃" />
+		<!--@else-->
+		<img src="./image/login_{$layout_info->color}.gif" alt="로그아웃" />
+		<!--@end-->
+		</a> </li>
+</ul>
+<!--@end-->
+<script type="text/javascript">
+  xAddEventListener(window, "load", function(){ doFocusUserId("fo_login_widget"); });
+</script>

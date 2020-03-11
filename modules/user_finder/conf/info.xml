@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="0.2">
+    <title xml:lang="ko">사용자 찾기</title>
+    <title xml:lang="en">User Finder</title>
+    <description xml:lang="ko">사용자 찾기 위젯과 연동되는 모듈입니다.</description>
+    <description xml:lang="en">This module works with user_finder widget.</description>
+    <version>0.1</version>
+    <date>2011-09-30</date>
+    <category>member</category>
+
+    <author email_address="wndflwr@gmail.com" link="www.cyworld.com/krifle">
+        <name xml:lang="ko">바람꽃</name>
+        <name xml:lang="en">wndflwr</name>
+    </author>
+</module>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin version="0.2">
+	<title xml:lang="ko">사용자 검색 위젯 기본 스킨</title>
+	<description xml:lang="ko">
+		사용자를 쉽게 검색할 수 있는 검색창을 만들어주는 위젯입니다.
+	</description>
+	<version>0.1</version>
+	<date>2011-09-30</date>
+	<link>www.cyworld.com/krifle</link>
+
+	<author email_address="wndflwr@gmail.com" link="www.cyworld.com/krifle">
+		<name xml:lang="ko">바람꽃</name>
+	</author>
+</skin>

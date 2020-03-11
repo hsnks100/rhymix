@@ -1,0 +1,80 @@
+@charset "utf-8";
+/*--Layout---*/
+* { margin:0; padding:0; }
+li { list-style:none; }
+
+body { background:url(../img/body_bg.gif) left top; }
+#wrap { height:100%; width:960px; margin:0 auto 0 auto; background:url(../img/wrap_bg.png) repeat-y left top; }
+#wrap #header { position:relative; height:210px; z-index:999; }
+#wrap #header .gnb { position:absolute; top:10px; right:40px; z-index:1000; }
+#wrap #header h1 { position:absolute; top:53px; left:140px; width:189px; height:58px;  }
+#wrap #header .search { position:absolute; top:66px; left:450px; width:420px; height:50px; }
+#wrap #header .search input.inputText { float:left; width:334px; border:4px solid #563F6B; margin-right:7px; _margin-right:4px; vertical-align:top; padding:8px 0 9px 3px; }
+#wrap #header #main_menu { position:absolute; top:166px; left:25px; height:51px; width:866px;  padding-left:45px; background:url(../img/main_menubg.gif) repeat-x left 6px; }
+#wrap #header #main_menu li { float:left; }
+#wrap #header #main_menu li a { position:relative; z-index:999; display:inline-block; text-decoration:none; color:#FFF; height:35px; padding:16px 36px 0 36px; font-size:14px; font-family:"Adobe Song Std L"; text-align:center; }
+
+#wrap #header #main_menu li ul { z-index:9999; display:none; position:absolute; left:13px; *top:-9px; top:51px; width:150px;  }
+#wrap #header #main_menu li ul li { float:none; background:url(../img/main_menu_ulbg.png) repeat-y left top; } 
+#wrap #header #main_menu li ul li a { padding:5px 0 0 12px; height:20px; width:138px; text-align:left; color:#757575; font-size:13px; }
+#wrap #header #main_menu li ul li a:hover { color:#FFF; }
+#wrap #header #main_menu li ul li.first { height:3px!important; width:150px; background:url(../img/main_menubg_top.png) no-repeat left top; line-height:0; font-size:0; }
+#wrap #header #main_menu li ul li.last { height:3px!important; width:150px; background:url(../img/main_menubg_bot.png) no-repeat left bottom; line-height:0; font-size:0; }
+
+
+#line { position:absolute; top:0px; left:0; height:51px; }
+#line span { height:51px; width:46px; }
+
+#wrap #footer { position:relative; width:911px; height:100px; margin-left:25px;}
+#wrap #footer .f_logo { position:absolute; top:30px; left:32px; }
+#wrap #footer .footer_text { position:absolute; left:220px; top:47px; width:537px; height:60px; color:#fff; }
+#footer_menu { overflow:hidden; height:100%; position:absolute; right:10px; top:46px; }
+#footer_menu li { }
+/*--Blue_style---*/
+.blue #line span.left { float:left; background:url(../img/left_blue.gif) no-repeat left top; }
+.blue #line span.right { float:right; background:url(../img/right_blue.gif) no-repeat left top; }
+.blue #container #left #left_menu li { background:url(../img/blue/blue_li_bg.png) no-repeat 14px 10px;}
+.blue #container #left #left_menu li ul li { background:url(../img/blue/blue_li_ul_bg.png) no-repeat 43px 10px; }
+.blue #container #left #left_menu li ul li a:hover { background:#ccc url(../img/blue/blue_li_ul_bg.png) no-repeat 43px 10px; }
+.blue #container #left #left_menu li ul li.active a { background:#ccc url(../img/blue/blue_li_ul_bg.png) no-repeat 43px 10px; }
+
+/*--Red---*/
+.red #line span.left { float:left; background:url(../img/left_red.gif) no-repeat left top; }
+.red #line span.right { float:right; background:url(../img/right_red.gif) no-repeat left top; }
+.red #container #left #left_menu li { background:url(../img/red/red_li_bg.png) no-repeat 14px 10px; }
+.red #container #left #left_menu li ul li { background:url(../img/red/red_li_ul_bg.png) no-repeat 43px 10px; }
+.red #container #left #left_menu li ul li a:hover { background:#ccc url(../img/red/red_li_ul_bg.png) no-repeat 43px 10px; }
+.red #container #left #left_menu li ul li.active a { background:#ccc url(../img/red/red_li_ul_bg.png) no-repeat 43px 10px; }
+/*--Purple---*/
+.purple #line span.left { float:left; background:url(../img/left_purple.gif) no-repeat left top; }
+.purple #line span.right { float:right; background:url(../img/right_purple.gif) no-repeat left top; }
+.purple #container #left #left_menu li { background:url(../img/purple/purple_li_bg.png) no-repeat 14px 10px; }
+.purple #container #left #left_menu li ul li { background:url(../img/purple/purple_li_ul_bg.png) no-repeat 43px 10px; }
+.purple #container #left #left_menu li ul li a:hover { background:#ccc url(../img/purple/purple_li_ul_bg.png) no-repeat 43px 10px; }
+.purple #container #left #left_menu li ul li.active a { background:#ccc url(../img/purple/purple_li_ul_bg.png) no-repeat 43px 10px; }
+
+
+/*--Main---*/
+#wrap #content_top { overflow:hidden; clear:both; width:880px; margin-left:25px; padding:15px 15px; }
+#wrap #content_top div.top_box { display:inline; width:435px; height:180px; overflow:hidden; }
+#wrap #content_top div.one { width:100%; }
+#wrap #container { overflow:hidden; height:100%; width:910px; margin-left:25px; background:#E8E8E8 url(../img/container_bgtop.gif) repeat-x left top; }
+#wrap #container #right { float:left; overflow:hidden; border-top:1px solid #BABABA; border-right:1px solid #BABABA; border-left:1px solid #BABABA; border-bottom:1px solid #FFF; _margin-left:9px!important;  }
+#wrap #container #right #content { padding:15px 15px; border-top:1px solid #fff; border-bottom:1px solid #BABABA; }
+
+
+
+
+/*--Sub---*/
+#wrap #container { padding-bottom:20px }
+#wrap #container #left { float:left; width:216px; margin:31px 0 0 19px; _margin:31px 0 0 9px; padding-top:41px; background:url(../img/left_menubg.gif) no-repeat left top;   }
+#wrap #container #left #left_menu { padding-bottom:100px; border:1px solid #BABABA; background:#ededed ; }
+#wrap #container #left #left_menu li a { display:block; width:182px; height:21px; padding:9px 0 0 33px; color:#757575; border-bottom:1px solid #BABABA; text-decoration:none; }
+#wrap #container #left #left_menu li ul { display:none; }
+#wrap #container #left #left_menu li.active ul { display:block; }
+#wrap #container #left #left_menu li ul li a{ height:23px; width:159px; padding:8px 0 0 56px; }
+#wrap #container #path { float:left;  width:690px; margin:32px 0 0 17px; height:32px; padding-top:8px; border:1px solid #BABABA; }
+#wrap #container #path li { float:left; background:url(../img/path_bg.gif) no-repeat right top; height:20px; padding:5px 15px 0 15px;}
+#wrap #container #path li a { text-decoration:none; color:#757575; }
+
+

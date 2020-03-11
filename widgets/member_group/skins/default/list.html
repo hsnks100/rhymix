@@ -1,0 +1,29 @@
+<!--@if($colorset == "black" || $colorset == "white")-->
+<!--%import("./css/widget.css")-->
+<!--@end-->
+
+<div class="widgetContainer<!--@if($colorset=="black")--> black<!--@end-->">
+    <ul class="widgetUlistA">
+    </ul>
+    <!--@foreach($widget_info->member_list as $key => $val)-->
+    <table width="100%" border="1" cellpadding="0" cellspacing="3">
+        <tbody><tr>
+                <td ><b>사진</b></td>
+                <td ><img src="{$val->profile}" /></td>
+                <td ><b>이름</b></td>
+                <td >{$val->nick_name}</td>
+                <td ><b>4구점수</b></td>
+                <td >{$val->extra->sagu}</td>
+            </tr>
+            <tr>
+                <td ><b>주특기</b></td>
+                <td >{$val->extra->skill}</td>
+                <td ><strong>하는일</strong></td>
+                <td >{$val->extra->job}</td>
+            </tr>
+        </tbody></table>
+        <br />
+        <!--@end-->
+
+</div>
+

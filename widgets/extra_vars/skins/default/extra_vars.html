@@ -1,0 +1,71 @@
+<include target="_header.html" />
+<table>
+    <thead>
+    <tr>
+        <!--@foreach($extra_key_list as $j => $extra_key)-->
+        <td>{$extra_key->name}</td>
+        <!--@end-->
+    </tr>
+    </thead>
+    <tbody>
+    <!--@foreach($oDocumentItemList as $i => $oDocument)-->
+    <tr>
+        <!--@foreach($extra_key_list as $j => $extra_key)-->
+        <td>{$oDocument->getExtraEidValue($extra_key->eid)}&nbsp;</td>
+        <!--@end-->
+    </tr>
+    <!--@end-->
+    </tbody>
+</table>
+
+<div>
+
+    <h4 class="label-default" style="text-align:center;">{$oWinRating->year} 년 {$oWinRating->month} 월 4구당구교류회 데이터</h4>    
+<div class="tablestart">
+    <table cellspacing="0" class="table at_board_title">
+
+        <thead>
+            <tr align="center">
+                <td style="text-align:center;"><span class="label label-success">순위</span></td>
+                <td style="text-align:center;"><span class="label label-success">이름</span></td>
+                <td style="text-align:center;"><span class="label label-success">승</span></td>
+                <td style="text-align:center;"><span class="label label-success">패</span></td>
+                <td style="text-align:center;"><span class="label label-success">승률</span></td>
+            </tr>
+        </thead>
+        <tbody>
+            {@$i=0;}
+            <!--@foreach($oWinRating->data as $data)-->
+            {@$i++;}
+            <tr class="infome" align="center">
+                <td class="no" style="text-align:center;">
+                    <!--@if($i == 1)-->
+                    사기다마
+                    <!--@else if($i == 2)-->
+                    짠다마
+                    <!--@else if($i == 3)-->
+                    꽉찬다마
+                    <!--@else-->
+                    {$i}
+                    <!--@end-->
+                </td>
+                <td class="author" style="text-align:center;">
+                    {$data->nick_name}
+                </td>
+                <td style="text-align:center;">
+                    {$data->mwins}
+                </td>
+                <td style="text-align:center;">
+                    {$data->mloses}
+                </td>
+                <td style="text-align:center;">
+                    <span class="label alert-info">
+                        {$data->rate * 100} %
+                    </span>
+                </td> 
+            </tr>
+            <!--@end-->
+        </tbody>
+    </table>
+</div>
+</div>

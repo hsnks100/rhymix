@@ -1,0 +1,32 @@
+@charset "utf-8";
+#left_login_form { }
+#left_login_form * { margin:0; padding:0; }
+#left_login_form input { color:#999; }
+#left_login_form { position:relative; padding:14px 0 0 13px; z-index:999; height:118px; margin-bottom:8px; _height:25px; background:#e8e8e8; border:1px solid #c8c8c8; } 
+#left_login_form .left_open_button_login { width:37px; height:21px; background:url(../image/btn_login.gif) no-repeat left top; border:none; position:absolute; top:75px; *top:80px; right:14px; }
+#left_login_form .left_button_login { width:37px; height:21px; background:url(../image/btn_login.gif) no-repeat left top; border:none; }
+
+#left_open_login input.left_openid_user_id,
+#left_login_form ul li input { font-size:12px; padding:3px 0 0 5px; width:143px; height:18px; background:url(../image/bg_input.gif) no-repeat left top; border:none; }
+#left_login_form ul li { margin-bottom:6px; }
+#left_login_form .left_button_login { position:absolute; top:41px; *top:44px; right:14px; }
+
+#left_login_form .left_save { position:absolute; top:13px; left:165px; }
+#left_login_form .left_save span { display:block; margin-top:3px; *margin-top:-3px;}
+#left_login_form .left_help { overflow:hidden; height:100%; margin-top:12px; *margin-top:7px; }
+#left_login_form .left_help li { float:left; background:url(../image/bg_li.gif) no-repeat left top; padding:0 7px; }
+#left_login_form .left_help li.first { background:none; padding-left:0;}
+
+/*openID*/
+#left_login_form .left_openid_user_id { margin-top:7px; }
+
+
+
+/*로그인후*/
+#member_information {  position:relative; margin-bottom:8px; z-index:999; height:125px; padding-top:10px; background:#e8e8e8; border:1px solid #c8c8c8;  } 
+#member_information ul.info { overflow:hidden; height:85px; width:200px; }
+#member_information ul.info li { float:left; width:100px; margin-top:12px; }
+#member_information ul.info li a { display:block; background:url(../image/ico.gif) no-repeat 20px 2px; padding-left:30px; }
+#member_information ul.m_btn { width:130px; margin:0 auto; }
+#member_information ul.m_btn li { margin-right:9px; }
+#member_information ul.m_btn li { float:left; }
