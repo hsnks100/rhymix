@@ -1,0 +1,20 @@
+<include target="./_header.html" />
+<table cellspacing="0" class="rowTable">
+	<tr loop="$timeCountData => $val">
+		<th width="40px">{$val->time}{$lang->attendance_time}</th>
+		<td style="min-width:300px;">
+			<div class="admin_graph">
+				<block cond="$total_count">
+					{@$percent=(int)($val->count/$total_count*100)}
+				</block>
+				<div class="progress" style="width:230px;">
+					<div class="bar bar-success" style="width:{$val->percent}%;"></div><!--@if($val->percent>=50)-->{$val->percent}%<!--@else-->&nbsp;<!--@end-->
+				</div>
+				<div class="num" style="left:230px;width:70px;">
+					<strong cond="$val->count">{$val->count}</strong><span cond="!$val->count">0</span>/{$total_count}({$val->percent}%)
+				</div>
+			</div>
+		</td>
+	</tr>
+</table>
+

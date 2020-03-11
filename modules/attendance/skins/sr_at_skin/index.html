@@ -1,0 +1,372 @@
+<!--#include("_header.html")-->
+<!--%import("js/at.js")-->
+<!--%import("filter/insert_attendance.xml")-->
+<!--%import("filter/fix_attendance_data.xml")-->
+
+{@$year=substr($selected_date,0,4)}
+{@$month=substr($selected_date,4,2)}
+{@$day=substr($selected_date,6,2)}
+{@$week=$oAttendanceModel->getWeek($selected_date)}
+<script type="text/javascript">
+    var warn_msg = '{$lang->attend_warn}';
+</script>
+
+
+
+
+<div class="navi">
+
+<!--@if($module_info->calendar != 'Y')-->
+<a href="#" onclick="toggle_object('calendar'); return false;" >
+<strong>{$year}년 {$month}월 {$day}일</strong></a>
+<!--@else-->
+<strong>{$year}년 {$month}월 {$day}일</strong>
+<!--@end-->
+
+			<!--@if($logged_info->is_admin=='Y')-->
+			<span style="margin-left:20px;">
+			<!--@if($module_info->display_setup_button!="N" && ($logged_info->is_admin=="Y" || $grant->manager == 1) )-->
+
+                &rsaquo; <a href="{getUrl('module','','mid','attendance','document','','act','dispAttendanceAdminBoardConfig')}">{$lang->cmd_setup}</a> 
+            <!--@end-->
+            <!--@if($logged_info->is_admin=='Y')-->
+
+                &rsaquo; <a href="{getUrl('module','admin','act','dispAdminAttendanceList','mid','')}" onclick="window.open(this.href);return false;" alt="{$lang->attendance_module}{$lang->cmd_management}" >{$lang->cmd_management}</a>
+
+            <!--@end-->
+			</span>
+            <!--@end-->
+
+<!--@if($is_logged)-->
+<span style="float:right; margin-right:10px; font-weight:none;">
+<a href="{getUrl('document_srl','','selected_date',zDate(date('YmdHis',mktime(0,0,0,$month-1, $day, $year)),'Ymd'))}" >&lsaquo; 이전달</a> &nbsp;<a href="{getUrl('document_srl','','selected_date',zDate(date('YmdHis'),"Ymd"))}">&uarr; 이번달</a> &nbsp;<a href="{getUrl('document_srl','','selected_date',zDate(date('YmdHis',mktime(0,0,0,$month+1, $day, $year)),'Ymd'))}" >다음달 &rsaquo;</a></span> 
+<!--@end-->
+
+
+
+</div>
+
+
+
+<!--@if($is_logged)-->
+
+<!--@if($module_info->calendar != 'Y')-->
+<div id="calendar" style="display:none">
+	<include target="calendar.html" />
+</div>
+<!--@else-->
+<include target="calendar.html" />
+<!--@end-->
+
+           <!--//도장버튼 노출-->
+
+    
+    <div class="cal">
+    
+    <!--@if(!$oAttendanceModel->getIsChecked($logged_info->member_srl) == 0 && $is_available == 0 )-->
+                출석이 완료되었습니다.<br/>
+
+				<font style="font-weight:normal">출석은 하루 1회만 참여하실 수 있습니다. 내일 다시 출석해 주세요.^^</font>
+ <!--@end-->
+ 
+	    <!--//출석을 하지 않았고, 출석 가능한 시간대라면-->
+	    <!--@if($oAttendanceModel->getIsChecked($logged_info->member_srl) == 0 && $is_available == 0 )-->
+
+
+			<div class="at_header">
+            
+            <!--@if($config->about_admin_check!='no')-->
+                <div class="attendance_button" align="center">
+	                <form action="./" method="post" id="click_button" onsubmit="return attendance_check()" name = "f1" >
+
+                    <table  cellpadding="0" align="center" cellspacing="0" >
+                    <tr>
+                    
+                    <td align="right" style="padding:0 10px"><span class="gret">{$lang->greetings}</span>
+                    </td>
+                    <td>
+                    <div class="at_w">
+                   
+					<input type="text" onclick="this.value='';" name="greetings" id="greetings" class="iText" onkeypress="return text_entercheck(event); " maxlength="<!--@if(!$module_info->maxlength)-->30<!--@end--> {$module_info->maxlength}" onfocus="alll()"/>
+                
+		                <input type="hidden" name="about_position" value="yes" />
+                        
+                        <div class="bc">(<input type = "Textbox" class="cout" name = "t2">/  <!--@if(!$module_info->maxlength)-->30<!--@end--> {$module_info->maxlength} )
+                        </div>
+</div>
+                    </td>
+                    <td width="50px">
+					<button type="button" class="bu" onclick="if(f1.greetings.value){return attendance_check()}else{return attendance_no_check()}"><img src="./css/write.gif" /></button>
+                    </td>
+					
+					</tr>
+                    </table>
+
+	                </form>
+                </div>
+            <!--@else-->
+                <!--@if($logged_info->is_admin != 'Y')-->
+                <div class="attendance_button" align="center">
+	                <form action="./" method="post" id="click_button" onsubmit="return attendance_check()" name = "f1" >
+
+                    <table cellpadding="0" align="center" cellspacing="0" >
+                    <tr>
+                    <td align="right" style="padding:0 10px"><span class="gret">{$lang->greetings}</span>
+                    </td>
+                    <td>
+                    <div class="at_w">
+  
+					<input type="text" onclick="this.value='';" name="greetings" id="greetings" class="iText" onkeypress="return text_entercheck(event); " maxlength="<!--@if(!$module_info->maxlength)-->30<!--@end--> {$module_info->maxlength}" onfocus="alll()"/>
+                
+		                <input type="hidden" name="about_position" value="yes" />
+
+                        <div class="bc" >
+                        (<input type = "Textbox" class="cout" name = "t2">/  <!--@if(!$module_info->maxlength)-->30<!--@end--> {$module_info->maxlength} )
+                        </div>
+</div>
+                    </td>
+                    <td width="50px">
+                    <button type="button" class="bu" onclick="if(f1.greetings.value){return attendance_check()}else{return attendance_no_check()}"><img src="./css/write.gif" /></button>
+                    </td>
+					</tr>
+                    </table>
+
+	                </form>
+                </div>
+                <!--@end-->
+                
+                {$lang->attend_banned_admin}
+            <!--@end-->
+</div>
+
+	    <!--@end-->
+        </div>
+    <!--@end-->
+
+
+
+<!--//지금 출석하시면 받을 수 있는 포인트 목록-->
+    <div class="point_list_body">
+    
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" border="0" class="point_list">
+    	<tr>
+        	<td class="title">{$lang->attendance_add_point}</td>
+            <td><!--@if($config_data->add_point > 0)-->{$config_data->add_point}<!--@elseif($config_data->add_point == 0)--> {$lang->attend_none}<!--@end--></td>
+            <Td class="title">{$lang->attendance_yearly_point}</Td>
+            <td><!--@if($config_data->yearly_point > 0)-->{$config_data->yearly_point}<!--@elseif($config_data->yearly_point == 0)--> {$lang->attend_none}<!--@end--></Td>
+            <td class="title">{$lang->attendance_monthly_point}</td>
+            <td><!--@if($config_data->monthly_point > 0)-->{$config_data->monthly_point}<!--@elseif($config_data->monthly_point == 0)--> {$lang->attend_none}<!--@end--></td>
+            <td class="title">{$lang->attendance_weekly_point}</td>
+            <td><!--@if($config_data->weekly_point > 0)-->{$config_data->weekly_point}<!--@elseif($config_data->weekly_point == 0)--> {$lang->attend_none}<!--@end--></td>
+
+        </tr>
+        
+        <tr>
+            <td class="title">{$lang->attendance_first_point}</td>
+            <td><!--@if($config_data->first_point > 0)-->{$config_data->first_point}<!--@elseif($config_data->first_point == 0)--> {$lang->attend_none}<!--@end--></td>
+            <td class="title">{$lang->attendance_second_point}</td>
+            <td><!--@if($config_data->second_point > 0)-->{$config_data->second_point}<!--@elseif($config_data->second_point == 0)--> {$lang->attend_none}<!--@end--></td>
+            <td class="title">{$lang->attendance_third_point}</td>
+            <td><!--@if($config_data->third_point > 0)-->{$config_data->third_point}<!--@elseif($config_data->third_point == 0)--> {$lang->attend_none}<!--@end--></td>
+            <td class="title">{$lang->attendance_perfect} {$lang->category}</td>
+            <td><span class="per">{$lang->week}</span> <span class="perm">{$lang->monthly_perfect}</span> <span class="pery">{$lang->yearly_perfect}</span></td>
+
+        </tr>
+        
+    </table>
+
+    </div>
+    
+	
+    		
+  
+    <!--//등수변수 초기화-->
+    <!--@if($module_info->order_type=='desc')-->
+        {@$position=($module_info->start_num)-($module_info->list_count*($oAttendance->page-1))}
+    <!--@else-->
+        {@$position=1+($oAttendance->page-1)*$module_info->list_count}
+    <!--@end-->
+
+    
+    <!--@if($oAttendanceAdminModel->getTodayTotalCount($selected_date)==0)-->
+    <div class="at_board_title">
+    <table cellspacing="0">
+
+        <thead>
+        
+        <tr class="board_title" align="center">
+            <td>{$lang->attend_no_checked}</td>
+        </tr>
+        
+        </thead>
+    </table>
+	</div>
+    <!--@else-->
+    
+    <!--//출석한 사람이 있다면 반복문 시작-->
+    <!--//쿼리를 통해 받은 사용자정보를 순서대로 얻어오는 구문-->
+
+            <table cellspacing="0" class="at_board_title">
+			
+            <thead>
+        <tr align="center" >
+            <th scope="col" class="no">{$lang->position}</th>
+            <th scope="col"><span>{$lang->time}</span></th>
+            <th scope="col" class="title"><span>{$lang->greetings}</span></th>
+            <th scope="col"><span>{$lang->nick_name}</span></th>
+            <th scope="col"><span>{$lang->point}</span></th>
+            <!--@if($module_info->display_ip_address != 'N')-->
+            <th scope="col"><span>{$lang->ipaddress}</span></th>
+            <!--@end-->
+        </tr>
+        
+        </thead>
+
+    <!--@foreach($oAttendance->data as $data)-->
+        {@$is_perfect=$oAttendanceModel->isPerfect($data->member_srl, $selected_date)}
+        {@$weekly = $oAttendanceModel->getWeeklyData($data->member_srl, $week)}
+            {@$member = $oMemberModel->getMemberInfoByMemberSrl($data->member_srl)}
+            <!--@if(ereg("^#[0-9]+$",$data->greetings))-->
+                {@$length_greetings = strlen($data->greetings) -1}
+                {@$oDocument = $oDocumentModel->getDocument(substr($data->greetings,1,$length_greetings))}
+                <!--@if($oDocument->document_srl)-->
+                    {@$exist_document = 1}
+                <!--@else-->
+                    {@$exist_document = 0}
+                <!--@end-->
+            <!--@else-->
+                {@$exist_document = 0}
+            <!--@end-->
+            
+                    
+            <tbody>
+            <tr>
+                <td class="no" style="text-align:center;">
+                <!--@if($position == 1)-->
+                <img src="./css/rank1.png" />
+                 <!--@elseif($position == 2)-->
+                 <img src="./css/rank2.png" />
+                 <!--@elseif($position == 3)-->
+                 <img src="./css/rank3.png" />
+                 <!--@else-->
+                 {$position}
+                 <!--@end-->
+                </td>
+                
+                <td class="time" style="text-align:center;">
+
+                {substr($data->regdate,8,2).":".substr($data->regdate,10,2).":".substr($data->regdate,12,2)}
+                </td>
+                
+                <td class="title" align="left">
+                
+
+                <!--@if($weekly->weekly == 7 && $selected_date == $week->sunday)--><span class="per">{$lang->attendance_perfect}</span><!--@end-->
+                
+                <!--@if($is_perfect->monthly_perfect)--><span class="perm">{$lang->attendance_perfect}</span><!--@end-->
+                
+                <!--@if($is_perfect->yearly_perfect)--><span class="pery">{$lang->attendance_perfect}</span><!--@end-->
+
+                
+                
+                    <!--@if($data->greetings)-->
+                        <!--@if($exist_document == 1)-->
+                            {cut_str($oDocument->getContentText(text),$module_info->greetings_cut_size,'...')}
+                        <!--@else-->
+                            {@$greetings_filtering = str_replace('<','&lt;',$data->greetings)}
+                            <!--@if($data->greetings!='^admin_checked^' && $data->greetings!='^auto^')-->{cut_str($greetings_filtering, $module_info->greetings_cut_size, '...')}
+                            <!--@elseif($data->greetings=='^admin_checked^')-->{$lang->attendance_admin_checked}
+                            <!--@elseif($data->greetings=='^auto^')-->{$lang->attend_auto_check}
+                            <!--@else-->{$lang->default_greetings}
+                            <!--@end-->
+                        <!--@end-->
+                    <!--@else-->
+                        {$lang->attend_no_greetings}
+                    <!--@end-->
+                    
+                    
+                    
+                </td>
+                <td align="left" class="author">
+                <span>
+                <a href="#popup_menu_area" class="member_{$member->member_srl}" onclick="return false">
+                {$member->nick_name}</a></span>
+                </td>
+       
+                
+                <td class="point" style="text-align:center" align="center">
+                
+                <!--@if($logged_info->is_admin=="Y" && $grant->manager == 1)-->
+                <a href="{getUrl('act','dispAttendanceAdminModifyAttendance','mid','attendance','attendance_srl',$data->attendance_srl,'selected_date',$selected_date)}">
+                
+                <!--@if($data->today_point > 5)-->
+                <font color="#FF0000">
+                {$data->today_point}</font>
+                <!--@else-->
+                {$data->today_point}
+                <!--@end-->
+               
+                </a>
+                
+                <!--@else-->
+                
+                <!--@if($data->today_point > 5)-->
+                <font color="#FF0000">
+                {$data->today_point}</font>
+                <!--@else-->
+                {$data->today_point}
+                <!--@end-->
+                
+                <!--@end-->
+                
+                </td>
+                
+                <!--@if($module_info->display_ip_address != 'N')-->
+                <td class="ip" style="text-align:left;">
+                    <!--@if($data->ipaddress == 'none')-->
+                        {$data->ipaddress}
+                    <!--@elseif(!$data->ipaddress)-->
+                        {$lang->attend_warn_ip}
+                    <!--@else-->
+                        <!--@if($data->member_srl == $logged_info->member_srl || $logged_info->is_admin =='Y')-->
+                            {$data->ipaddress}
+                        <!--@else-->
+                            {@$ip_tmp = explode('.',$data->ipaddress)}
+                            {@$i=0}<!--@foreach($ip_tmp as $ip)--><!--@if($i==0 || $i==1)-->{@$i++}*.<!--@elseif($i==2)-->{@$i++}{$ip}.<!--@else-->{@$i++}{$ip}<!--@end--><!--@end-->
+                        <!--@end-->
+                    <!--@end-->
+                </td>
+                <!--@end-->
+       
+            </tr>
+            </tbody>  
+    		<!--@if($module_info->order_type=='desc')-->{@$position--}<!--@else-->{@$position++}<!--@end-->
+    <!--@end-->
+            </table>
+            
+	<!--@end-->
+	
+    <!--@if(!$oAttendanceAdminModel->getTodayTotalCount($selected_date)==0)-->
+
+     <div style="position:relative; width:100%; padding:5px 0; text-align:center">       
+            <!--//페이지 내비게이션-->
+			<div class="pagination">
+       		<a href="{getUrl('page',$oAttendance->page_navigation->first_page,'module_srl','')}"  class="direction prev">&lsaquo; {$lang->first_page}</a> 
+	    <!--@while($page_no = $oAttendance->page_navigation->getNextPage())-->
+		    <!--@if($oAttendance->page == $page_no)-->
+			    <strong>{$page_no}</strong>
+		    <!--@else-->
+			    <a href="{getUrl('page',$page_no,'module_srl','')}">{$page_no}</a> 
+		    <!--@end-->
+	    <!--@end--><a href="{getUrl('page',$oAttendance->page_navigation->last_page,'module_srl','')}"  class="direction next">{$lang->last_page} &rsaquo;</a>
+    </div>
+	<!--@end-->
+    
+</div>
+            
+    
+    
+    <p></p>
+
+
+<!--#include("_footer.html")-->

@@ -1,0 +1,12 @@
+<query id="updateWins" action="update">
+	<tables>
+		<table name="attendance" />
+	</tables>
+	<columns>
+		<column name="wins" var="wins" />
+		<column name="loses" var="loses" />
+	</columns>
+	<conditions>
+		<condition operation="equal" column="attendance_srl" var="attendance_srl"  />
+	</conditions>
+</query>

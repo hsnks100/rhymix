@@ -1,0 +1,783 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+$.fn.emulateTransitionEnd	skins/default/js/bootstrap.js	/^  }$/;"	f
+$.fn.infinitescroll	skins/default/js/jquery.infinitescroll.js	/^	};$/;"	f
+$.fn.smartscroll	skins/default/js/jquery.infinitescroll.js	/^	};$/;"	f
+$.infinitescroll	skins/default/js/jquery.infinitescroll.js	/^	"use strict";$/;"	c
+$document	skins/default/js/jquery.infinitescroll.js	/^			var $document = $(document);$/;"	v
+$window	skins/default/js/jquery.infinitescroll.js	/^			var $window = $(window);$/;"	v
+Affix	skins/default/js/bootstrap.js	/^  var Affix = function (element, options) {$/;"	m	class:Tab
+Affix	skins/default/js/bootstrap.js	/^  }$/;"	c	class:Tab
+Alert	skins/default/js/bootstrap.js	/^  }$/;"	c
+Button	skins/default/js/bootstrap.js	/^  }$/;"	c	class:var
+Button	skins/default/js/bootstrap.js	/^  }$/;"	c	class:var.Button
+Carousel	skins/default/js/bootstrap.js	/^  var Carousel = function (element, options) {$/;"	m	class:var
+Carousel	skins/default/js/bootstrap.js	/^  }$/;"	c	class:var
+Carousel	skins/default/js/bootstrap.js	/^  }$/;"	c	class:var.Carousel
+Carousel	skins/default/js/bootstrap.js	/^  }$/;"	c	class:var.Carousel.Carousel
+Collapse	skins/default/js/bootstrap.js	/^  var Collapse = function (element, options) {$/;"	m	class:var
+Collapse	skins/default/js/bootstrap.js	/^  }$/;"	c	class:var
+Collapse	skins/default/js/bootstrap.js	/^  }$/;"	c	class:var.Collapse
+Collapse	skins/default/js/bootstrap.js	/^  }$/;"	c	class:var.Collapse.Collapse
+Dropdown	skins/default/js/bootstrap.js	/^  }$/;"	c	class:var
+Modal	skins/default/js/bootstrap.js	/^  }$/;"	c	class:var
+Modal	skins/default/js/bootstrap.js	/^  }$/;"	c	class:var.Modal
+Modal	skins/default/js/bootstrap.js	/^  }$/;"	c	class:var.Modal.Modal
+Modal	skins/default/js/bootstrap.js	/^  }$/;"	c	class:var.Modal.Modal.Modal
+Modal	skins/default/js/bootstrap.js	/^  }$/;"	c	class:var.Modal.Modal.Modal.Modal
+Popover	skins/default/js/bootstrap.js	/^  var Popover = function (element, options) {$/;"	m	class:var
+Popover	skins/default/js/bootstrap.js	/^  }$/;"	c
+Popover	skins/default/js/bootstrap.js	/^  }$/;"	c	class:Popover
+Popover	skins/default/js/bootstrap.js	/^  }$/;"	c	class:Popover.Popover
+ScrollSpy	skins/default/js/bootstrap.js	/^  }$/;"	c
+ScrollSpy	skins/default/js/bootstrap.js	/^  }$/;"	c	class:ScrollSpy
+Tab	skins/default/js/bootstrap.js	/^  var Tab = function (element) {$/;"	m	class:var
+Tab	skins/default/js/bootstrap.js	/^  }$/;"	c	class:var
+Tab	skins/default/js/bootstrap.js	/^  }$/;"	c	class:var.Tab
+Tooltip	skins/default/js/bootstrap.js	/^  }$/;"	c
+Tooltip	skins/default/js/bootstrap.js	/^  }$/;"	c	class:Tooltip
+Tooltip	skins/default/js/bootstrap.js	/^  }$/;"	c	class:Tooltip.Tooltip
+Tooltip	skins/default/js/bootstrap.js	/^  }$/;"	c	class:Tooltip.Tooltip.Tooltip
+Tooltip	skins/default/js/bootstrap.js	/^  }$/;"	c	class:Tooltip.Tooltip.Tooltip.Tooltip
+Tooltip	skins/default/js/bootstrap.js	/^  }$/;"	c	class:Tooltip.Tooltip.Tooltip.Tooltip.Tooltip
+Tooltip	skins/default/js/bootstrap.js	/^  }$/;"	c	class:var
+Tooltip	skins/default/js/bootstrap.js	/^  }$/;"	c	class:var.Tooltip.this.var
+Tooltip	skins/default/js/bootstrap.js	/^  }$/;"	c	class:var.Tooltip.this.var.Tooltip
+Tooltip	skins/default/js/bootstrap.js	/^  }$/;"	c	class:var.Tooltip.this.var.Tooltip.Tooltip
+Tooltip	skins/default/js/bootstrap.js	/^  }$/;"	c	class:var.Tooltip.this.var.Tooltip.Tooltip.Tooltip
+Tooltip	skins/default/js/bootstrap.js	/^  }$/;"	c	class:var.Tooltip.this.var.Tooltip.Tooltip.Tooltip.Tooltip.var
+_prefill	skins/default/js/jquery.infinitescroll.js	/^			this._prefill = function () {$/;"	f
+a	m.skins/default/js/at.js	/^var a = true;$/;"	v
+a	skins/default/js/at.js	/^var a = true;$/;"	v
+a	skins/sr_at_skin/js/at.js	/^var a = true;$/;"	v
+act	attendance.admin.view.php	/^				$this->act = 'list';$/;"	v
+act	attendance.controller.php	/^		$act = Context::get('act');$/;"	v
+action	attendance.admin.controller.php	/^		$action = Context::get('action');$/;"	v
+addTotalDataUpdate	attendance.controller.php	/^	function addTotalDataUpdate($member_info, $year, $year_month, $obj, $continuity)$/;"	f
+alll	m.skins/default/js/at.js	/^function alll() {$/;"	f
+alll	skins/default/js/at.js	/^function alll() {$/;"	f
+alll	skins/sr_at_skin/js/at.js	/^function alll() {$/;"	f
+animation	skins/default/js/bootstrap.js	/^  Tooltip.DEFAULTS = {$/;"	p	class:var.Tooltip.Tooltip
+arg	attendance.admin.model.php	/^		$arg = new stdClass();$/;"	v
+arg	attendance.controller.php	/^		$arg = new stdClass();$/;"	v
+arg	attendance.controller.php	/^		$arg = new stdClass;$/;"	v
+arg	attendance.model.php	/^		$arg = new stdClass();$/;"	v
+args	attendance.admin.controller.php	/^		$args = Context::getRequestVars();$/;"	v
+args	attendance.admin.controller.php	/^		$args = new stdCLass();$/;"	v
+args	attendance.admin.controller.php	/^		$args = new stdClass();$/;"	v
+args	attendance.admin.controller.php	/^		$args = new stdClass;$/;"	v
+args	attendance.admin.model.php	/^		$args = new stdClass();$/;"	v
+args	attendance.admin.view.php	/^		$args = new stdClass();$/;"	v
+args	attendance.admin.view.php	/^            $args = new stdClass();$/;"	v
+args	attendance.class.php	/^					$args = new stdClass();$/;"	v
+args	attendance.class.php	/^					$args = new stdClass;$/;"	v
+args	attendance.class.php	/^			$args = new stdClass;$/;"	v
+args	attendance.controller.php	/^		$args = new stdClass();$/;"	v
+args	attendance.model.php	/^		$args = new stdClass();$/;"	v
+args	attendance.view.php	/^		$args = new stdClass();$/;"	v
+arrayUserData	attendance.admin.view.php	/^		$arrayUserData = array();$/;"	v
+arrayUserData	attendance.view.php	/^		$arrayUserData = array();$/;"	v
+att_ban_dclick	tpl/js/attendance_admin.js	/^function att_ban_dclick(msg){$/;"	f
+att_delete_all_data	tpl/js/attendance_admin.js	/^function att_delete_all_data(member_srl) {$/;"	f
+att_fix_attendance_data	tpl/js/attendance_admin.js	/^function att_fix_attendance_data(member_srl, count, date,lang, nick) {$/;"	f
+att_fix_total_data	tpl/js/attendance_admin.js	/^function att_fix_total_data(member_srl, lang1, lang2, nick) {$/;"	f
+att_toggleStatus	tpl/js/attendance_admin.js	/^function att_toggleStatus(type, member_srl, day) {$/;"	f
+attendRegularly	attendance.controller.php	/^		$attendRegularly = $oAttendanceModel->isPerfect($member_info->member_srl, $today, false);$/;"	v
+attendance	attendance.admin.controller.php	/^			$attendance = $oAttendanceModel->getTotalAttendance($obj->member_srl);$/;"	v
+attendance	attendance.admin.controller.php	/^		$attendance = $oAttendanceModel->getTotalAttendance($obj->member_srl);$/;"	v
+attendance	attendance.admin.model.php	/^		$attendance = $oAttendanceModel->getMonthlyData($monthly,$obj->member_srl);$/;"	v
+attendance	attendance.admin.model.php	/^		$attendance = $oAttendanceModel->getWeeklyAttendance($obj->member_srl, $week);$/;"	v
+attendance	attendance.admin.model.php	/^		$attendance = $oAttendanceModel->getYearlyData($year,$obj->member_srl);$/;"	v
+attendance	attendance.class.php	/^class attendance extends ModuleObject$/;"	c
+attendanceAdminController	attendance.admin.controller.php	/^class attendanceAdminController extends attendance$/;"	c
+attendanceAdminModel	attendance.admin.model.php	/^class attendanceAdminModel extends attendance$/;"	c
+attendanceAdminView	attendance.admin.view.php	/^class attendanceAdminView extends attendance$/;"	c
+attendanceController	attendance.controller.php	/^class attendanceController extends attendance$/;"	c
+attendanceMobile	attendance.mobile.php	/^class attendanceMobile extends attendanceView$/;"	c
+attendanceModel	attendance.model.php	/^class attendanceModel extends attendance$/;"	c
+attendanceView	attendance.view.php	/^class attendanceView extends attendance$/;"	c
+attendance_check	m.skins/default/js/at.js	/^function attendance_check(){$/;"	f
+attendance_check	skins/default/js/at.js	/^function attendance_check(){$/;"	f
+attendance_check	skins/sr_at_skin/js/at.js	/^function attendance_check(){$/;"	f
+attendance_no_check	m.skins/default/js/at.js	/^function attendance_no_check(){$/;"	f
+attendance_no_check	skins/default/js/at.js	/^function attendance_no_check(){$/;"	f
+attendance_no_check	skins/sr_at_skin/js/at.js	/^function attendance_no_check(){$/;"	f
+attendance_srl	attendance.admin.view.php	/^		$attendance_srl = Context::get('attendance_srl');$/;"	v
+attendance_srl	attendance.mobile.php	/^		$attendance_srl = Context::get('attendance_srl');$/;"	v
+availableCheck	attendance.model.php	/^	function availableCheck()$/;"	f
+b	m.skins/default/js/at.js	/^var b = true;$/;"	v
+b	skins/default/js/at.js	/^var b = true;$/;"	v
+b	skins/sr_at_skin/js/at.js	/^var b = true;$/;"	v
+backdrop	skins/default/js/bootstrap.js	/^  Modal.DEFAULTS = {$/;"	p	class:var.Modal.Modal
+beCheckWrite	skins/default/att.html	/^function beCheckWrite(obj){$/;"	f
+birthdays	attendance.controller.php	/^			$birthdays = substr($member_info->birthday, 4, 4);$/;"	v
+cache	attendance.admin.model.php	/^		static $cache = array();$/;"	v
+changeSelectedDate	tpl/js/attendance_admin.js	/^function changeSelectedDate(selected_date) {$/;"	f
+checkMonthlyDiligence	attendance.model.php	/^	function checkMonthlyDiligence($member_srl, $diligence_monthly, $year_month)$/;"	f
+checkPosition	skins/default/js/bootstrap.js	/^  Affix.prototype.checkPosition = function () {$/;"	m	class:Tab.Affix
+checkPositionWithEventLoop	skins/default/js/bootstrap.js	/^  Affix.prototype.checkPositionWithEventLoop = function () {$/;"	m	class:Tab.Affix
+checkUpdate	attendance.class.php	/^	function checkUpdate()$/;"	f
+checkWeeklyDiligence	attendance.model.php	/^	function checkWeeklyDiligence($member_srl, $diligence_weekly, $today)$/;"	f
+checkYearlyDiligence	attendance.model.php	/^	function checkYearlyDiligence($member_srl, $diligence_yearly, $year)$/;"	f
+check_month	attendance.admin.view.php	/^		$check_month = sprintf("%s%s", $year, $month);$/;"	v
+check_month	attendance.view.php	/^		$check_month = sprintf("%s%s", $year, $month);$/;"	v
+clearCache	attendance.model.php	/^	function clearCache()$/;"	f
+clearCacheByMemberSrl	attendance.model.php	/^	function clearCacheByMemberSrl($member_srl, $type = 'all', $condition = null)$/;"	f
+clearMenus	skins/default/js/bootstrap.js	/^  function clearMenus() {$/;"	f	function:var.function
+close	skins/default/js/bootstrap.js	/^  Alert.prototype.close = function (e) {$/;"	m	class:Alert
+completeDeleteBoard	tpl/js/aboard_admin.js	/^function completeDeleteBoard(ret_obj) {$/;"	f
+completeInsertAttendance	m.skins/default/js/at.js	/^function completeInsertAttendance(ret_obj) {$/;"	f
+completeInsertAttendance	skins/default/js/at.js	/^function completeInsertAttendance(ret_obj) {$/;"	f
+completeInsertAttendance	skins/sr_at_skin/js/at.js	/^function completeInsertAttendance(ret_obj) {$/;"	f
+completeInsertBoard	tpl/js/aboard_admin.js	/^function completeInsertBoard(ret_obj) {$/;"	f
+completeUpdateCategory	tpl/js/aboard_admin.js	/^function completeUpdateCategory(ret_obj) {$/;"	f
+config	attendance.admin.controller.php	/^		$config = $oAttendanceModel->getConfig();$/;"	v
+config	attendance.admin.controller.php	/^		$config = new stdClass;$/;"	v
+config	attendance.admin.view.php	/^		$config = $oAttendanceModel->getConfig();$/;"	v
+config	attendance.controller.php	/^		$config = $oAttendanceModel->getConfig();$/;"	v
+config	attendance.controller.php	/^		$config = $oModuleModel->getModuleConfig('attendance');$/;"	v
+config	attendance.model.php	/^			$config = $oModuleModel->getModuleConfig('attendance');$/;"	v
+config	attendance.model.php	/^		$config = $this->getConfig();$/;"	v
+config	attendance.model.php	/^	private static $config = NULL;$/;"	v
+config	attendance.view.php	/^		$config = $oAttendanceModel->getConfig();$/;"	v
+container	skins/default/js/bootstrap.js	/^  , container: false$/;"	p	class:var.Tooltip.Tooltip
+content	attendance.admin.view.php	/^		$content = '';$/;"	v
+content	attendance.controller.php	/^			$content = str_replace('<input type="button" value="삭제"', '<input type="button" value="삭제" disabled="disabled"', $content);$/;"	v
+content	attendance.controller.php	/^			$content = str_replace('<input type="text" placeholder="YYYY-MM-DD" name="birthday_ui"', Context::getLang('출석부모듈에 의해 생일 변경이 금지되었습니다.') . '<br><input type="text" name="birthday" placeholder="YYYY-MM-DD" disabled="disabled"', $content);$/;"	v
+continuity	attendance.admin.controller.php	/^			$continuity = new stdClass;$/;"	v
+continuity	attendance.admin.controller.php	/^		$continuity = new stdClass();$/;"	v
+continuity	attendance.admin.controller.php	/^		$continuity = new stdClass;$/;"	v
+continuity	attendance.controller.php	/^			$continuity = $oAttendanceModel->getContinuityData($member_info->member_srl, $yesterday);$/;"	v
+continuity	attendance.controller.php	/^			$continuity = new stdClass();$/;"	v
+continuity	attendance.controller.php	/^		$continuity = new stdClass;$/;"	v
+continuity	attendance.model.php	/^		$continuity = new stdClass();$/;"	v
+count	attendance.model.php	/^		$count = (int)$output->data->count;$/;"	v
+countList	attendance.admin.view.php	/^		$countList = $oAttendanceAdminModel->getTodayTimeCountList($selected_date);$/;"	v
+current_day	attendance.model.php	/^		$current_day = substr($today, 6, 2);$/;"	v
+current_month	attendance.model.php	/^		$current_month = substr($today, 4, 2);$/;"	v
+current_year	attendance.model.php	/^		$current_year = substr($today, 0, 4);$/;"	v
+d_day	attendance.model.php	/^		$d_day = floor((strtotime(substr($end_date, 0, 10)) - strtotime($today)) \/ 86400);$/;"	v
+d_obj	attendance.controller.php	/^				$d_obj = new stdClass;$/;"	v
+daily	attendance.model.php	/^		$daily = ($type === 'daily' && $condition) ? $condition : zDate(date('YmdHis'), "Ymd");$/;"	v
+daily_info	attendance.admin.controller.php	/^		$daily_info = $oAttendanceModel->getUserAttendanceData($member_info->member_srl, $obj->check_day);$/;"	v
+data	attendance.view.php	/^		$data = $oAttendanceModel->getContinuityDataByMemberSrl($member_srl);$/;"	v
+date_info	attendance.view.php	/^		$date_info = new stdClass();$/;"	v
+day	attendance.admin.view.php	/^		$day = substr($selected_date, 6, 2);$/;"	v
+day	attendance.view.php	/^		$day = substr($selected_date, 6, 2);$/;"	v
+delay	skins/default/js/bootstrap.js	/^  , delay: 0$/;"	p	class:var.Tooltip.Tooltip
+deleteAllAttendanceData	attendance.admin.model.php	/^	function deleteAllAttendanceData($member_srl)$/;"	f
+deleteAllAttendanceMonthlyData	attendance.admin.model.php	/^	function deleteAllAttendanceMonthlyData($member_srl)$/;"	f
+deleteAllAttendanceTotalData	attendance.admin.model.php	/^	function deleteAllAttendanceTotalData($member_srl)$/;"	f
+deleteAllAttendanceWeeklyData	attendance.admin.model.php	/^	function deleteAllAttendanceWeeklyData($member_srl)$/;"	f
+deleteAllAttendanceYearlyData	attendance.admin.model.php	/^	function deleteAllAttendanceYearlyData($member_srl)$/;"	f
+deleteAttendanceMonthlyData	attendance.admin.model.php	/^	function deleteAttendanceMonthlyData($member_srl, $monthly)$/;"	f
+deleteAttendanceWeeklyData	attendance.admin.model.php	/^	function deleteAttendanceWeeklyData($member_srl, $week)$/;"	f
+deleteAttendanceYearlyData	attendance.admin.model.php	/^	function deleteAttendanceYearlyData($member_srl, $year)$/;"	f
+deleteDuplicatedData	attendance.admin.model.php	/^	function deleteDuplicatedData($member_srl, $selected_date)$/;"	f
+delete_triggers	attendance.class.php	/^	private $delete_triggers = array($/;"	v
+dispAttendanceAdminBoardAdditionSetup	attendance.admin.view.php	/^	function dispAttendanceAdminBoardAdditionSetup()$/;"	f
+dispAttendanceAdminBoardConfig	attendance.admin.view.php	/^	function dispAttendanceAdminBoardConfig()$/;"	f
+dispAttendanceAdminBoardSkinConfig	attendance.admin.view.php	/^	function dispAttendanceAdminBoardSkinConfig()$/;"	f
+dispAttendanceAdminConfig	attendance.admin.view.php	/^	function dispAttendanceAdminConfig()$/;"	f
+dispAttendanceAdminDay	attendance.admin.view.php	/^	function dispAttendanceAdminDay()$/;"	f
+dispAttendanceAdminGift	attendance.admin.view.php	/^	function dispAttendanceAdminGift()$/;"	f
+dispAttendanceAdminGrantList	attendance.admin.view.php	/^	function dispAttendanceAdminGrantList()$/;"	f
+dispAttendanceAdminMobileBoardSkinConfig	attendance.admin.view.php	/^	function dispAttendanceAdminMobileBoardSkinConfig()$/;"	f
+dispAttendanceAdminModifyAttendance	attendance.admin.view.php	/^	function dispAttendanceAdminModifyAttendance()$/;"	f
+dispAttendanceAdminRankmonthly	attendance.admin.view.php	/^	function dispAttendanceAdminRankmonthly()$/;"	f
+dispAttendanceAdminRanktotal	attendance.admin.view.php	/^	function dispAttendanceAdminRanktotal()$/;"	f
+dispAttendanceAdminRankweekly	attendance.admin.view.php	/^	function dispAttendanceAdminRankweekly()$/;"	f
+dispAttendanceAdminRankyearly	attendance.admin.view.php	/^	function dispAttendanceAdminRankyearly()$/;"	f
+dispAttendanceAdminSpeedsearch	attendance.admin.view.php	/^	function dispAttendanceAdminSpeedsearch()$/;"	f
+dispAttendanceAdminTime	attendance.admin.view.php	/^	function dispAttendanceAdminTime()$/;"	f
+dispAttendanceBoard	attendance.view.php	/^	public function dispAttendanceBoard()$/;"	f
+dispAttendanceBoardGiftList	attendance.view.php	/^	function dispAttendanceBoardGiftList()$/;"	f
+dispAttendanceDay	attendance.view.php	/^	function dispAttendanceDay()$/;"	f
+dispAttendanceMemberInfo	attendance.view.php	/^	function dispAttendanceMemberInfo()$/;"	f
+dispAttendanceMobileModifyAttendance	attendance.mobile.php	/^	function dispAttendanceMobileModifyAttendance()$/;"	f
+dispAttendanceModifyContinuous	attendance.view.php	/^	function dispAttendanceModifyContinuous()$/;"	f
+dispAttendancePersonalInfo	attendance.view.php	/^	function dispAttendancePersonalInfo()$/;"	f
+doCartSetup	tpl/js/aboard_admin.js	/^function doCartSetup(url) {$/;"	f
+doDeleteItem	tpl/js/aboard_admin.js	/^function doDeleteItem() {$/;"	f
+doInsertItem	tpl/js/aboard_admin.js	/^function doInsertItem() {$/;"	f
+doMoveDownItem	tpl/js/aboard_admin.js	/^function doMoveDownItem() {$/;"	f
+doMoveUpItem	tpl/js/aboard_admin.js	/^function doMoveUpItem() {$/;"	f
+doSaveListConfig	tpl/js/aboard_admin.js	/^function doSaveListConfig(module_srl) {$/;"	f
+doUpdateCategory	tpl/js/aboard_admin.js	/^function doUpdateCategory(category_srl, mode, message) {$/;"	f
+doc_srl	attendance.controller.php	/^        $doc_srl = $output->data->attendance_srl; $/;"	v
+document_srl	attendance.admin.controller.php	/^				$document_srl = substr($daily_info->greetings, 1, $length);$/;"	v
+document_srl	attendance.admin.model.php	/^					$document_srl = substr($data->greetings, 1, $length);$/;"	v
+document_srl	attendance.view.php	/^		$document_srl = Context::get('document_srl');$/;"	v
+end	attendance.model.php	/^			$end = new stdClass();$/;"	v
+end_date	attendance.model.php	/^		$end_date = date(zdate($sign_date, 'Y-m-d'));$/;"	v
+end_day	attendance.admin.view.php	/^		$end_day = date('t', mktime(0, 0, 0, $month, 1, $year));$/;"	v
+end_day	attendance.view.php	/^		$end_day = date('t', mktime(0, 0, 0, $month, 1, $year));$/;"	v
+end_of_month	attendance.admin.controller.php	/^		$end_of_month = date('t', mktime(0, 0, 0, zDate(date('YmdHis'), "m"), 1, zDate(date('YmdHis'), "Y")));$/;"	v
+end_of_month	attendance.model.php	/^		$end_of_month = date('t', mktime(0, 0, 0, $current_month, 1, $current_year));$/;"	v
+end_of_sosi	attendance.model.php	/^		$end_of_sosi = date('z', mktime(0, 0, 0, $current_month, $current_day, $current_year)) + 1;$/;"	v
+end_of_year	attendance.admin.controller.php	/^			$end_of_year = 365;$/;"	v
+end_of_year	attendance.admin.controller.php	/^			$end_of_year = 366;$/;"	v
+end_of_year	attendance.model.php	/^			$end_of_year = 365;$/;"	v
+end_of_year	attendance.model.php	/^			$end_of_year = 366;$/;"	v
+end_time	attendance.admin.view.php	/^		$end_time = new stdClass();$/;"	v
+enforceFocus	skins/default/js/bootstrap.js	/^  Modal.prototype.enforceFocus = function () {$/;"	m	class:var.Modal.Modal
+eom	attendance.admin.view.php	/^		$eom = date('t', mktime(0, 0, 0, $month, 1, $year));$/;"	v
+eoy	attendance.admin.view.php	/^			$eoy = 365;$/;"	v
+eoy	attendance.admin.view.php	/^			$eoy = 366;$/;"	v
+escape	skins/default/js/bootstrap.js	/^  Modal.prototype.escape = function () {$/;"	m	class:var.Modal.Modal
+event	skins/default/js/jquery.infinitescroll.js	/^	var event = $.event,$/;"	v
+expires	attendance.admin.model.php	/^			$expires = 86400 * (31 - min(31, substr($today, -2)));$/;"	v
+fixYearMonthWeek	attendance.admin.model.php	/^	function fixYearMonthWeek($obj)$/;"	f
+flag	attendance.model.php	/^			$flag = false;$/;"	v
+flag	attendance.model.php	/^			$flag = true;$/;"	v
+g_obj	attendance.admin.controller.php	/^		$g_obj = new stdClass();$/;"	v
+g_obj	attendance.controller.php	/^		$g_obj = Context::getRequestVars();$/;"	v
+getActiveIndex	skins/default/js/bootstrap.js	/^  Carousel.prototype.getActiveIndex = function () {$/;"	m	class:var.Carousel
+getAttendanceData	attendance.model.php	/^	function getAttendanceData($member_srl, $selected_date)$/;"	f
+getAttendanceDataSrl	attendance.model.php	/^	function getAttendanceDataSrl($attendance_srl)$/;"	f
+getAttendanceInfo	attendance.model.php	/^	function getAttendanceInfo()$/;"	f
+getAttendanceList	attendance.model.php	/^	function getAttendanceList($list_count, $today)$/;"	f
+getAttendanceMemberList	attendance.admin.model.php	/^	function getAttendanceMemberList($list, $new_type)$/;"	f
+getCacheHandler	attendance.model.php	/^	function getCacheHandler()$/;"	f
+getConfig	attendance.model.php	/^	function getConfig()$/;"	f
+getContent	skins/default/js/bootstrap.js	/^  Popover.prototype.getContent = function () {$/;"	m	class:Popover.Popover
+getContinuityData	attendance.model.php	/^	function getContinuityData($member_srl, $yesterday)$/;"	f
+getContinuityDataByMemberSrl	attendance.model.php	/^	function getContinuityDataByMemberSrl($member_srl)$/;"	f
+getDelegateOptions	skins/default/js/bootstrap.js	/^  Tooltip.prototype.getDelegateOptions = function () {$/;"	m	class:var.Tooltip.this.var.Tooltip
+getDuplicateIpCount	attendance.model.php	/^	function getDuplicateIpCount($today, $ipaddress)$/;"	f
+getDuplicatedData	attendance.admin.model.php	/^	function getDuplicatedData($member_srl,$selected_date)$/;"	f
+getGreetingsData	attendance.model.php	/^	function getGreetingsData($document_srl)$/;"	f
+getGreetingsList	attendance.model.php	/^	function getGreetingsList($member_srl)$/;"	f
+getInverseList	attendance.model.php	/^	function getInverseList($list_count, $today)$/;"	f
+getIsChecked	attendance.model.php	/^	function getIsChecked($member_srl)$/;"	f
+getIsCheckedA	attendance.model.php	/^	function getIsCheckedA($member_srl, $today)$/;"	f
+getIsCheckedMonth	attendance.model.php	/^	function getIsCheckedMonth($member_srl, $today)$/;"	f
+getMonthlyAttendance	attendance.model.php	/^	function getMonthlyAttendance($member_srl, $year_month)$/;"	f
+getMonthlyData	attendance.model.php	/^	function getMonthlyData($monthly, $member_srl)$/;"	f
+getMonthlyPoint	attendance.admin.model.php	/^	function getMonthlyPoint($member_srl, $monthly)$/;"	f
+getOptions	skins/default/js/bootstrap.js	/^  Tooltip.prototype.getOptions = function (options) {$/;"	m	class:var.Tooltip.this.var.Tooltip
+getPosition	skins/default/js/bootstrap.js	/^  Tooltip.prototype.getPosition = function () {$/;"	m	class:Tooltip.Tooltip.Tooltip.Tooltip
+getPositionData	attendance.model.php	/^	function getPositionData($today, $greetings = null)$/;"	f
+getTitle	skins/default/js/bootstrap.js	/^  Tooltip.prototype.getTitle = function () {$/;"	m	class:Tooltip.Tooltip.Tooltip.Tooltip
+getTodayGiftCount	attendance.model.php	/^	function getTodayGiftCount($today)$/;"	f
+getTodayTimeCount	attendance.admin.model.php	/^	function getTodayTimeCount($today_time)$/;"	f
+getTodayTimeCountList	attendance.admin.model.php	/^	function getTodayTimeCountList($today)$/;"	f
+getTodayTotalCount	attendance.admin.model.php	/^	function getTodayTotalCount($today)$/;"	f
+getTotalAbsent	attendance.model.php	/^	function getTotalAbsent($sign_date, $total_attendance)$/;"	f
+getTotalAttendance	attendance.model.php	/^	function getTotalAttendance($member_srl)$/;"	f
+getTotalData	attendance.model.php	/^	function getTotalData($member_srl)$/;"	f
+getTotalPoint	attendance.admin.model.php	/^	function getTotalPoint($member_srl)$/;"	f
+getTotalPoint	attendance.model.php	/^	function getTotalPoint($member_srl)$/;"	f
+getUserAttendanceData	attendance.model.php	/^	function getUserAttendanceData($member_srl, $date)$/;"	f
+getWeek	attendance.model.php	/^	function getWeek($today)$/;"	f
+getWeeklyAttendance	attendance.model.php	/^	function getWeeklyAttendance($member_srl, $week)$/;"	f
+getWeeklyAttendanceByMemberSrl	attendance.model.php	/^	function getWeeklyAttendanceByMemberSrl($member_srl)$/;"	f
+getWeeklyData	attendance.model.php	/^	function getWeeklyData($member_srl, $week)$/;"	f
+getWeeklyPoint	attendance.admin.model.php	/^	function getWeeklyPoint($member_srl, $week)$/;"	f
+getYearlyAttendance	attendance.model.php	/^	function getYearlyAttendance($member_srl, $year)$/;"	f
+getYearlyData	attendance.model.php	/^	function getYearlyData($yearly, $member_srl)$/;"	f
+getYearlyPoint	attendance.admin.model.php	/^	function getYearlyPoint($member_srl, $year)$/;"	f
+gift_args	attendance.controller.php	/^					$gift_args = new stdClass();$/;"	v
+grant_content	attendance.admin.view.php	/^		$grant_content = $oModuleAdminModel->getModuleGrantHTML($module_info->module_srl, $this->xml_info->grant);$/;"	v
+grc	attendance.view.php	/^			$grc = count($greeting_list);$/;"	v
+greeting_list	attendance.view.php	/^			$greeting_list = explode("\\r\\n", $config->greeting_list);$/;"	v
+greeting_name	attendance.view.php	/^			$greeting_name = $greeting_list[$rands];$/;"	v
+greetings	attendance.admin.controller.php	/^				$greetings = $val->greetings;$/;"	v
+group_list	attendance.admin.view.php	/^		$group_list = $oMemberModel->getGroups();$/;"	v
+group_list	attendance.view.php	/^		$group_list = $oMemberModel->getGroups();$/;"	v
+handler	skins/default/js/jquery.infinitescroll.js	/^		},$/;"	m	class:event.special.smartscroll
+hasContent	skins/default/js/bootstrap.js	/^  Tooltip.prototype.hasContent = function () {$/;"	m	class:Tooltip.Tooltip.Tooltip.Tooltip
+hour	attendance.controller.php	/^		$hour = substr($obj->regdate, 0, 2);$/;"	v
+html	skins/default/js/bootstrap.js	/^  , html: false$/;"	p	class:var.Tooltip.Tooltip
+info	attendance.admin.controller.php	/^		$info = $oModuleModel->getModuleInfoByMid('attendance');$/;"	v
+infscr	skins/default/js/jquery.infinitescroll.js	/^	$.infinitescroll = function infscr(options, callback, element) {$/;"	f
+infscr_init	skins/default/js/jquery.infinitescroll.js	/^	$.fn.infinitescroll = function infscr_init(options, callback) {$/;"	f
+init	attendance.admin.controller.php	/^	function init()$/;"	f
+init	attendance.admin.model.php	/^	function init()$/;"	f
+init	attendance.admin.view.php	/^	function init()$/;"	f
+init	attendance.controller.php	/^	function init()$/;"	f
+init	attendance.mobile.php	/^	function init()$/;"	f
+init	attendance.model.php	/^	function init()$/;"	f
+init	attendance.view.php	/^	function init()$/;"	f
+insertAttendance	attendance.controller.php	/^	function insertAttendance($g_obj, $config, $member_srl = null, $r_args = null)$/;"	f
+insertMonthly	attendance.controller.php	/^	function insertMonthly($member_srl, $monthly, $monthly_point, $regdate)$/;"	f
+insertTotal	attendance.controller.php	/^	function insertTotal($member_srl, $continuity, $total_attendance, $total_point, $regdate)$/;"	f
+insertWeekly	attendance.controller.php	/^	function insertWeekly($member_srl, $weekly, $weekly_point, $regdate)$/;"	f
+insertYearly	attendance.controller.php	/^	function insertYearly($member_srl, $yearly, $yearly_point, $regdate)$/;"	f
+interval	skins/default/js/bootstrap.js	/^  Carousel.DEFAULTS = {$/;"	p	class:var.Carousel.Carousel
+intrand	attendance.controller.php	/^				$intrand = rand(1, 100);$/;"	v
+ip_count	attendance.controller.php	/^		$ip_count = $oAttendanceModel->getDuplicateIpCount($today, $_SERVER['REMOTE_ADDR']);$/;"	v
+isExistContinuity	attendance.model.php	/^	function isExistContinuity($member_srl, $yesterday)$/;"	f
+isExistMonthly	attendance.model.php	/^	function isExistMonthly($member_srl, $year_month)$/;"	f
+isExistTotal	attendance.model.php	/^	function isExistTotal($member_srl)$/;"	f
+isExistWeekly	attendance.model.php	/^	function isExistWeekly($member_srl, $week)$/;"	f
+isExistYearly	attendance.model.php	/^	function isExistYearly($member_srl, $year)$/;"	f
+isPerfect	attendance.model.php	/^	function isPerfect($member_srl, $today, $real = true)$/;"	f
+is_available	attendance.view.php	/^		$is_available = $oAttendanceModel->availableCheck();$/;"	v
+is_logged	attendance.controller.php	/^		$is_logged = Context::get('is_logged');$/;"	v
+is_perfect_m	attendance.model.php	/^		$is_perfect_m = $this->getMonthlyData($ym, $member_srl);$/;"	v
+is_perfect_y	attendance.model.php	/^		$is_perfect_y = $this->getYearlyData($current_year, $member_srl);$/;"	v
+j	attendance.admin.controller.php	/^		$j = 1;$/;"	v
+keyboard	skins/default/js/bootstrap.js	/^    , keyboard: true$/;"	p	class:var.Modal.Modal
+keydown	skins/default/js/bootstrap.js	/^  Dropdown.prototype.keydown = function (e) {$/;"	m	class:var.Dropdown
+layout_list	attendance.admin.view.php	/^		$layout_list = $oLayoutModel->getLayoutList();$/;"	v
+length	attendance.admin.controller.php	/^				$length = strlen($daily_info->greetings) - 1;$/;"	v
+length	attendance.admin.model.php	/^					$length = strlen($data->greetings) -1;$/;"	v
+loading	skins/default/js/jquery.infinitescroll.js	/^	$.infinitescroll.defaults = {$/;"	p	class:$.infinitescroll.defaults
+loadingText	skins/default/js/bootstrap.js	/^  Button.DEFAULTS = {$/;"	p	class:var.Button.Button
+logged_info	attendance.controller.php	/^		$logged_info = Context::get('logged_info');$/;"	v
+logged_info	attendance.view.php	/^		$logged_info = Context::get('logged_info');$/;"	v
+loses	attendance.controller.php	/^        $loses = $output->data->loses; $/;"	v
+makeObject	attendance.class.php	/^	public function makeObject($code = 0, $msg = 'success')$/;"	f
+member	attendance.class.php	/^				$member = $oMemberModel->getMemberInfoByUserId($value->user_id);$/;"	v
+memberAttendanceInfo	attendance.admin.model.php	/^		$memberAttendanceInfo = $oAttendanceModel->getGreetingsList($member_srl);$/;"	v
+member_data	attendance.view.php	/^		$member_data = new stdClass();$/;"	v
+member_info	attendance.admin.controller.php	/^		$member_info = $oMemberModel->getMemberInfoByMemberSrl($obj->member_srl);$/;"	v
+member_info	attendance.controller.php	/^			$member_info = $oMemberModel->getMemberInfoByMemberSrl($member_srl);$/;"	v
+member_info	attendance.controller.php	/^			$member_info = Context::get('logged_info');$/;"	v
+member_info	attendance.controller.php	/^		$member_info = $oMemberModel->getMemberInfoByMemberSrl($logged_info->member_srl);$/;"	v
+member_info	attendance.view.php	/^			$member_info = $logged_info;$/;"	v
+member_info	attendance.view.php	/^			$member_info = getModel('member')->getMemberInfoByMemberSrl($member_srl);$/;"	v
+member_srl	attendance.admin.controller.php	/^		$member_srl = $obj->member_srl;$/;"	v
+member_srl	attendance.admin.controller.php	/^		$member_srl = Context::get('member_srl');$/;"	v
+member_srl	attendance.controller.php	/^		$member_srl = $obj->member_srl;$/;"	v
+member_srl	attendance.model.php	/^		$member_srl = (int)$member_srl;$/;"	v
+member_srl	attendance.view.php	/^			$member_srl = $logged_info->member_srl;$/;"	v
+member_srl	attendance.view.php	/^		$member_srl = Context::get('member_srl');$/;"	v
+min	attendance.controller.php	/^		$min = substr($obj->regdate, 2, 2);$/;"	v
+mobile_layout_list	attendance.admin.view.php	/^		$mobile_layout_list = $oLayoutModel->getLayoutList(0, "M");$/;"	v
+modify_att	m.skins/default/js/at.js	/^function modify_att(){$/;"	f
+modify_att	skins/default/js/at.js	/^function modify_att(){$/;"	f
+modify_att	skins/sr_at_skin/js/at.js	/^function modify_att(){$/;"	f
+module.exports	Gruntfile.js	/^module.exports = function(grunt) {$/;"	f
+moduleInstall	attendance.class.php	/^	function moduleInstall()$/;"	f
+moduleUpdate	attendance.class.php	/^	function moduleUpdate()$/;"	f
+module_category	attendance.admin.view.php	/^		$module_category = $oModuleModel->getModuleCategories();$/;"	v
+module_info	attendance.admin.controller.php	/^		$module_info = $oModuleModel->getModuleInfoByMid('attendance');$/;"	v
+module_info	attendance.admin.view.php	/^				$this->module_info = $module_info;$/;"	v
+module_info	attendance.admin.view.php	/^			$module_info = $oModuleModel->getModuleInfoByModuleSrl($module_srl);$/;"	v
+module_info	attendance.admin.view.php	/^		$module_info = $oModuleModel->getModuleInfoByMid('attendance');$/;"	v
+module_info	attendance.class.php	/^		$module_info = $oModuleModel->getModuleInfoByMid('attendance');$/;"	v
+module_info	attendance.class.php	/^		$module_info = getModel('attendance')->getAttendanceInfo('attendance');$/;"	v
+module_info	attendance.controller.php	/^		$module_info = $oAttendanceModel->getAttendanceInfo();$/;"	v
+module_info	attendance.mobile.php	/^		$module_info = $oModuleModel->getModuleInfoByMid('attendance');$/;"	v
+module_info	attendance.model.php	/^		$module_info = getModel('module')->getModuleInfoByModuleSrl($module_srl);$/;"	v
+module_info	attendance.view.php	/^		$module_info = $oAttendanceModel->getAttendanceInfo();$/;"	v
+module_srl	attendance.admin.view.php	/^			$module_srl = $this->module_srl;$/;"	v
+module_srl	attendance.admin.view.php	/^		$module_srl = Context::get('module_srl');$/;"	v
+module_srl	attendance.model.php	/^		$module_srl = $output->data->module_srl;$/;"	v
+month	attendance.admin.view.php	/^		$month = substr($selected_date, 4, 2);$/;"	v
+month	attendance.view.php	/^		$month = substr($selected_date, 4, 2);$/;"	v
+month_data	attendance.model.php	/^		$month_data = $this->getMonthlyData($year_month, $member_srl);$/;"	v
+month_data	attendance.model.php	/^		$month_data = new stdClass();$/;"	v
+month_info	attendance.admin.controller.php	/^				$month_info = $oAttendanceModel->getMonthlyAttendance($obj->member_srl, $year_month);$/;"	v
+month_info	attendance.controller.php	/^			$month_info = $oAttendanceModel->getMonthlyAttendance($member_info->member_srl, $year_month);$/;"	v
+monthly	attendance.admin.model.php	/^		$monthly = substr($obj->selected_date,0,6);$/;"	v
+monthly	attendance.model.php	/^		$monthly = ($type === 'monthly' && $condition) ? $condition : zDate(date('YmdHis'), "Ym");$/;"	v
+monthlyCount	attendance.controller.php	/^			$monthlyCount = $oAttendanceModel->getMonthlyData($year_month, $member_info->member_srl);$/;"	v
+monthlyCount	attendance.controller.php	/^			$monthlyCount = count($oAttendanceModel->getIsCheckedMonth($member_info->member_srl, $year_month));$/;"	v
+monthlyOutput	attendance.controller.php	/^			$monthlyOutput = $this->insertMonthly($member_info->member_srl, $monthlyCount, $monthly_point, $regdate);$/;"	v
+monthlyOutput	attendance.controller.php	/^			$monthlyOutput = $this->updateMonthly($member_info->member_srl, $year_month, $monthlyCount, $monthly_point, $regdate);$/;"	v
+monthly_data	attendance.admin.controller.php	/^				$monthly_data = $oAttendanceModel->getMonthlyData($year_month, $obj->member_srl);$/;"	v
+monthly_data	attendance.admin.controller.php	/^		$monthly_data = $oAttendanceModel->getMonthlyAttendance($obj->member_srl, $year_month);$/;"	v
+monthly_info	attendance.controller.php	/^		$monthly_info = $oAttendanceModel->getMonthlyAttendance($oAttendance->member_srl, $year_month);$/;"	v
+monthly_point	attendance.admin.controller.php	/^					$monthly_point = 0;$/;"	v
+monthly_point	attendance.admin.controller.php	/^				$monthly_point = $month_info->monthly_point;$/;"	v
+monthly_point	attendance.controller.php	/^			$monthly_point = $month_info->monthly_point;$/;"	v
+monthly_point	attendance.controller.php	/^			$monthly_point = $obj->today_point;$/;"	v
+moveDate	tpl/_header.html	/^	function moveDate() {$/;"	f
+moveDate	tpl/_userheader.html	/^	function moveDate() {$/;"	f
+moveDate	tpl/personal.html	/^    function moveDate() {$/;"	f
+msg_code	attendance.admin.controller.php	/^		$msg_code = 'success_updated';$/;"	v
+mskin_list	attendance.admin.view.php	/^		$mskin_list = $oModuleModel->getSkins($this->module_path, 'm.skins');$/;"	v
+my_point	attendance.admin.controller.php	/^		$my_point = $oPointModel->getPoint($member_info->member_srl);$/;"	v
+needsPrefill	skins/default/js/jquery.infinitescroll.js	/^			function needsPrefill() {$/;"	f
+next	skins/default/js/bootstrap.js	/^  Carousel.prototype.next = function () {$/;"	m	class:var.Carousel.Carousel.Carousel
+now	attendance.model.php	/^			$now = new stdClass();$/;"	v
+oAttendance	attendance.admin.view.php	/^		$oAttendance = $oAttendanceModel->getAttendanceDataSrl($attendance_srl);$/;"	v
+oAttendance	attendance.controller.php	/^		$oAttendance = $oAttendanceModel->getAttendanceDataSrl($obj->attendance_srl);$/;"	v
+oAttendance	attendance.mobile.php	/^		$oAttendance = $oAttendanceModel->getAttendanceDataSrl($attendance_srl);$/;"	v
+oAttendance	attendance.view.php	/^			$oAttendance = $oAttendanceModel->getAttendanceList($module_info->list_count, $selected_date);$/;"	v
+oAttendance	attendance.view.php	/^			$oAttendance = $oAttendanceModel->getGreetingsData("#" . $document_srl);$/;"	v
+oAttendance	attendance.view.php	/^			$oAttendance = $oAttendanceModel->getInverseList($module_info->list_count, $selected_date);$/;"	v
+oAttendanceAdminModel	attendance.admin.controller.php	/^		$oAttendanceAdminModel = getAdminModel('attendance');$/;"	v
+oAttendanceAdminModel	attendance.admin.model.php	/^		$oAttendanceAdminModel = getAdminModel('attendance');$/;"	v
+oAttendanceAdminModel	attendance.admin.view.php	/^		$oAttendanceAdminModel = getAdminModel('attendance');$/;"	v
+oAttendanceAdminModel	attendance.controller.php	/^		$oAttendanceAdminModel = getAdminModel('attendance');$/;"	v
+oAttendanceAdminModel	attendance.view.php	/^		$oAttendanceAdminModel = getAdminModel('attendance');$/;"	v
+oAttendanceController	attendance.admin.controller.php	/^		$oAttendanceController = getController('attendance');$/;"	v
+oAttendanceController	attendance.admin.controller.php	/^		$oAttendanceController = getcontroller('attendance');$/;"	v
+oAttendanceModel	attendance.admin.controller.php	/^		$oAttendanceModel = getModel('attendance');$/;"	v
+oAttendanceModel	attendance.admin.model.php	/^		$oAttendanceModel = getModel('attendance');$/;"	v
+oAttendanceModel	attendance.admin.view.php	/^		$oAttendanceModel = getModel('attendance');$/;"	v
+oAttendanceModel	attendance.controller.php	/^		$oAttendanceModel = getModel('attendance');$/;"	v
+oAttendanceModel	attendance.mobile.php	/^		$oAttendanceModel = getModel('attendance');$/;"	v
+oAttendanceModel	attendance.view.php	/^		$oAttendanceModel = getModel('attendance');$/;"	v
+oAttendnaceController	attendance.admin.controller.php	/^		$oAttendnaceController = getController('attendance');$/;"	v
+oCacheHandler	attendance.admin.model.php	/^			$oCacheHandler = null;$/;"	v
+oCacheHandler	attendance.model.php	/^					$this->oCacheHandler = false;$/;"	v
+oCacheHandler	attendance.model.php	/^				$this->oCacheHandler = CacheHandler::getInstance('object');$/;"	v
+oCacheHandler	attendance.model.php	/^				$this->oCacheHandler = false;$/;"	v
+oCacheHandler	attendance.model.php	/^		$oCacheHandler = $this->getCacheHandler();$/;"	v
+oCacheHandler	attendance.model.php	/^	private $oCacheHandler = NULL;$/;"	v
+oDB	attendance.class.php	/^		$oDB = &DB::getInstance();$/;"	v
+oDB	attendance.class.php	/^		$oDB = DB::getInstance();$/;"	v
+oDB	attendance.controller.php	/^		$oDB = DB::getInstance();$/;"	v
+oDocumentController	attendance.admin.controller.php	/^				$oDocumentController = getController('document');$/;"	v
+oDocumentController	attendance.admin.model.php	/^		$oDocumentController = getController('document');$/;"	v
+oDocumentController	attendance.controller.php	/^			$oDocumentController = getController('document');$/;"	v
+oDocumentModel	attendance.view.php	/^		$oDocumentModel = getModel('document');$/;"	v
+oLayoutModel	attendance.admin.view.php	/^		$oLayoutModel = getModel('layout');$/;"	v
+oMemberController	attendance.controller.php	/^		$oMemberController = getController('member');$/;"	v
+oMemberModel	attendance.admin.controller.php	/^		$oMemberModel = getModel('member');$/;"	v
+oMemberModel	attendance.admin.view.php	/^		$oMemberModel = getModel('member');$/;"	v
+oMemberModel	attendance.class.php	/^		$oMemberModel = getModel('member');$/;"	v
+oMemberModel	attendance.controller.php	/^		$oMemberModel = getModel('member');$/;"	v
+oMemberModel	attendance.mobile.php	/^		$oMemberModel = getModel('member');$/;"	v
+oMemberModel	attendance.view.php	/^		$oMemberModel = getModel('member');$/;"	v
+oModuleAdminModel	attendance.admin.view.php	/^		$oModuleAdminModel = getAdminModel('module');$/;"	v
+oModuleController	attendance.admin.controller.php	/^		$oModuleController = getController('module');$/;"	v
+oModuleController	attendance.class.php	/^		$oModuleController = getController('module');$/;"	v
+oModuleModel	attendance.admin.controller.php	/^		$oModuleModel = getModel('module');$/;"	v
+oModuleModel	attendance.admin.view.php	/^		$oModuleModel = getModel('module');$/;"	v
+oModuleModel	attendance.class.php	/^		$oModuleModel = getModel('module');$/;"	v
+oModuleModel	attendance.controller.php	/^		$oModuleModel = getModel('module');$/;"	v
+oModuleModel	attendance.mobile.php	/^		$oModuleModel = getModel('module');$/;"	v
+oModuleModel	attendance.model.php	/^			$oModuleModel = getModel('module');$/;"	v
+oPointController	attendance.admin.controller.php	/^		$oPointController = getController('point');$/;"	v
+oPointController	attendance.controller.php	/^		$oPointController = getController('point');$/;"	v
+oPointModel	attendance.admin.controller.php	/^		$oPointModel = getModel('point');$/;"	v
+obj	attendance.admin.controller.php	/^		$obj = Context::getRequestVars();$/;"	v
+obj	attendance.controller.php	/^		$obj = Context::getRequestVars();$/;"	v
+obj	attendance.controller.php	/^		$obj = new stdClass();$/;"	v
+obj	attendance.model.php	/^		$obj = new stdClass();$/;"	v
+offset	skins/default/js/bootstrap.js	/^  ScrollSpy.DEFAULTS = {$/;"	p	class:function.ScrollSpy.DEFAULTS
+opts.callback	skins/default/js/jquery.infinitescroll.js	/^			};$/;"	f
+output	attendance.admin.controller.php	/^			$output = executeQuery("attendance.deleteAttendanceData", $args);$/;"	v
+output	attendance.admin.controller.php	/^		$output = $oAttendanceAdminModel->getDuplicatedData($obj->member_srl, $obj->selected_date);$/;"	v
+output	attendance.admin.controller.php	/^		$output = $oAttendanceController->insertAttendance($g_obj, $config, $member_srl, $r_args);$/;"	v
+output	attendance.admin.controller.php	/^		$output = $oModuleController->updateModule($args);$/;"	v
+output	attendance.admin.controller.php	/^		$output = executeQuery('attendance.insertAttendance', $args);$/;"	v
+output	attendance.admin.controller.php	/^		$output = executeQuery('attendance.migrationGetSrlTotal');$/;"	v
+output	attendance.admin.controller.php	/^		$output = executeQuery('attendance.updateAttendanceGift', $args);$/;"	v
+output	attendance.admin.model.php	/^		$output = executeQuery("attendance.deleteAllAttendanceData",$args);$/;"	v
+output	attendance.admin.model.php	/^		$output = executeQuery("attendance.deleteAllAttendanceMonthlyData",$args);$/;"	v
+output	attendance.admin.model.php	/^		$output = executeQuery("attendance.deleteAllAttendanceTotalData",$args);$/;"	v
+output	attendance.admin.model.php	/^		$output = executeQuery("attendance.deleteAllAttendanceWeeklyData",$args);$/;"	v
+output	attendance.admin.model.php	/^		$output = executeQuery("attendance.deleteAllAttendanceYearlyData",$args);$/;"	v
+output	attendance.admin.model.php	/^		$output = executeQuery("attendance.deleteAttendanceMonthlyData",$args);$/;"	v
+output	attendance.admin.model.php	/^		$output = executeQuery("attendance.deleteAttendanceWeeklyData",$args);$/;"	v
+output	attendance.admin.model.php	/^		$output = executeQuery("attendance.deleteAttendanceYearlyData",$args);$/;"	v
+output	attendance.admin.model.php	/^		$output = executeQuery("attendance.getTodayTimeCount",$arg);$/;"	v
+output	attendance.admin.model.php	/^		$output = executeQuery("attendance.getTodayTotalCount",$arg);$/;"	v
+output	attendance.admin.model.php	/^		$output = executeQueryArray("attendance.getDuplicatedData",$args);$/;"	v
+output	attendance.admin.model.php	/^		$output = executeQueryArray("attendance.getMonthlyPoint",$args);$/;"	v
+output	attendance.admin.model.php	/^		$output = executeQueryArray("attendance.getWeeklyPoint",$args);$/;"	v
+output	attendance.admin.model.php	/^		$output = executeQueryArray("attendance.getYearlyPoint",$args);$/;"	v
+output	attendance.admin.model.php	/^		$output = executeQueryArray('attendance.getTodayTimeList', $args);$/;"	v
+output	attendance.admin.view.php	/^		$output = executeQuery('attendance.getAdminGiftList', $args);$/;"	v
+output	attendance.class.php	/^			$output = $oModuleController->insertModule($args);$/;"	v
+output	attendance.controller.php	/^				$output = $oDocumentController->insertDocument($d_obj, false);$/;"	v
+output	attendance.controller.php	/^		$output = $this->insertAttendance($g_obj, $config);$/;"	v
+output	attendance.controller.php	/^		$output = executeQuery("attendance.insertAttendance", $obj);$/;"	v
+output	attendance.controller.php	/^		$output = executeQuery("attendance.insertMonthly", $arg);$/;"	v
+output	attendance.controller.php	/^		$output = executeQuery("attendance.insertTotal", $arg);$/;"	v
+output	attendance.controller.php	/^		$output = executeQuery("attendance.insertWeekly", $arg);$/;"	v
+output	attendance.controller.php	/^		$output = executeQuery("attendance.insertYearly", $arg);$/;"	v
+output	attendance.controller.php	/^		$output = executeQuery("attendance.updateMonthly", $arg);$/;"	v
+output	attendance.controller.php	/^		$output = executeQuery("attendance.updateTotal", $arg);$/;"	v
+output	attendance.controller.php	/^		$output = executeQuery("attendance.updateWeekly", $arg);$/;"	v
+output	attendance.controller.php	/^		$output = executeQuery("attendance.updateYearly", $arg);$/;"	v
+output	attendance.controller.php	/^		$output = executeQuery('attendance.getIsChecked', $arg);$/;"	v
+output	attendance.controller.php	/^		$output = executeQuery('attendance.updateTotal', $args);$/;"	v
+output	attendance.controller.php	/^		$output = executeQuery('attendance.updateWins', $arg);$/;"	v
+output	attendance.model.php	/^		$output = executeQuery('attendance.getAttendance');$/;"	v
+output	attendance.model.php	/^		$output = executeQuery('attendance.getAttendanceData', $args);$/;"	v
+output	attendance.model.php	/^		$output = executeQuery('attendance.getAttendanceDataSrl', $arg);$/;"	v
+output	attendance.model.php	/^		$output = executeQuery('attendance.getContinuityData', $arg);$/;"	v
+output	attendance.model.php	/^		$output = executeQuery('attendance.getContinuityData', $args);$/;"	v
+output	attendance.model.php	/^		$output = executeQuery('attendance.getDuplicateIpCount', $obj);$/;"	v
+output	attendance.model.php	/^		$output = executeQuery('attendance.getGreetingsData', $arg);$/;"	v
+output	attendance.model.php	/^		$output = executeQuery('attendance.getIsChecked', $arg);$/;"	v
+output	attendance.model.php	/^		$output = executeQuery('attendance.getMonthlyAttendance', $arg);$/;"	v
+output	attendance.model.php	/^		$output = executeQuery('attendance.getMonthlyData', $args);$/;"	v
+output	attendance.model.php	/^		$output = executeQuery('attendance.getPositionData', $args);$/;"	v
+output	attendance.model.php	/^		$output = executeQuery('attendance.getTotalAttendance', $args);$/;"	v
+output	attendance.model.php	/^		$output = executeQuery('attendance.getTotalData', $arg);$/;"	v
+output	attendance.model.php	/^		$output = executeQuery('attendance.getTotalPoint', $args);$/;"	v
+output	attendance.model.php	/^		$output = executeQuery('attendance.getUserAttendanceData', $arg);$/;"	v
+output	attendance.model.php	/^		$output = executeQuery('attendance.getWeeklyAttendance', $arg);$/;"	v
+output	attendance.model.php	/^		$output = executeQuery('attendance.getWeeklyAttendanceByMemberSrl', $args);$/;"	v
+output	attendance.model.php	/^		$output = executeQuery('attendance.getWeeklyData', $arg);$/;"	v
+output	attendance.model.php	/^		$output = executeQuery('attendance.getYearlyAttendance', $arg);$/;"	v
+output	attendance.model.php	/^		$output = executeQuery('attendance.getYearlyData', $args);$/;"	v
+output	attendance.model.php	/^		$output = executeQuery('attendance.isExistContinuity', $arg);$/;"	v
+output	attendance.model.php	/^		$output = executeQuery('attendance.isExistMonthly', $arg);$/;"	v
+output	attendance.model.php	/^		$output = executeQuery('attendance.isExistTodayGift', $args);$/;"	v
+output	attendance.model.php	/^		$output = executeQuery('attendance.isExistTotal', $arg);$/;"	v
+output	attendance.model.php	/^		$output = executeQuery('attendance.isExistWeekly', $arg);$/;"	v
+output	attendance.model.php	/^		$output = executeQuery('attendance.isExistYearly', $arg);$/;"	v
+output	attendance.model.php	/^		$output = executeQuery('attendance.updateAttendance', $arg); $/;"	v
+output	attendance.model.php	/^		$output = executeQuery('attendance.updateWinsLoses', $arg); $/;"	v
+output	attendance.model.php	/^		$output = executeQueryArray('attendance.getAdminAttendanceList', $args);$/;"	v
+output	attendance.model.php	/^		$output = executeQueryArray('attendance.getAdminInverseList', $args);$/;"	v
+output	attendance.model.php	/^		$output = executeQueryArray('attendance.getGreetingsList', $arg);$/;"	v
+output	attendance.model.php	/^		$output = executeQueryArray('attendance.getIsCheckedMonth', $args);$/;"	v
+output	attendance.view.php	/^		$output = executeQuery('attendance.getGiftList', $args);$/;"	v
+output_gift	attendance.controller.php	/^					$output_gift = executeQuery("attendance.insertPresent", $gift_args);$/;"	v
+outputs	attendance.view.php	/^		$outputs = executeQuery('attendance.getTodayMyGiftList', $args);$/;"	v
+pad	attendance.admin.view.php	/^		$pad = date('t', mktime(0, 0, 0, 02, 1, $year));$/;"	v
+path	skins/default/js/jquery.infinitescroll.js	/^			var path = $(opts.nextSelector).attr('href');$/;"	v
+pause	skins/default/js/bootstrap.js	/^  , pause: 'hover'$/;"	p	class:var.Carousel.Carousel
+personal_point	attendance.admin.controller.php	/^			$personal_point = $point;$/;"	v
+personal_point	attendance.admin.controller.php	/^		$personal_point = $oPointModel->getPoint($member_srl);$/;"	v
+placement	skins/default/js/bootstrap.js	/^  , placement: 'top'$/;"	p	class:var.Tooltip.Tooltip
+point	attendance.admin.controller.php	/^			$point = 0;$/;"	v
+point	attendance.admin.controller.php	/^		$point = Context::get('point');$/;"	v
+points	attendance.admin.controller.php	/^			$points = $oAttendanceAdminModel->getTotalPoint($obj->member_srl);$/;"	v
+points	attendance.admin.controller.php	/^		$points = $oAttendanceAdminModel->getTotalPoint($obj->member_srl);$/;"	v
+points	attendance.admin.model.php	/^		$points = $oAttendanceAdminModel->getMonthlyPoint($obj->member_srl, $monthly);$/;"	v
+points	attendance.admin.model.php	/^		$points = $oAttendanceAdminModel->getWeeklyPoint($obj->member_srl, $week);$/;"	v
+points	attendance.admin.model.php	/^		$points = $oAttendanceAdminModel->getWeeklyPoint($obj->member_srl, $year);$/;"	v
+position	attendance.admin.view.php	/^		$position = 1 + ($user_data->page - 1) * 20;$/;"	v
+position	attendance.controller.php	/^		$position = $oAttendanceModel->getPositionData($today);$/;"	v
+present_srl	attendance.admin.controller.php	/^		$present_srl = Context::get('present_srl');$/;"	v
+prev	skins/default/js/bootstrap.js	/^  Carousel.prototype.prev = function () {$/;"	m	class:var.Carousel.Carousel.Carousel
+procAttendanceAddLoses	attendance.controller.php	/^	function procAttendanceAddLoses()$/;"	f
+procAttendanceAddWins	attendance.controller.php	/^	function procAttendanceAddWins()$/;"	f
+procAttendanceAdminCheckData	attendance.admin.controller.php	/^	function procAttendanceAdminCheckData()$/;"	f
+procAttendanceAdminDeleteAllData	attendance.admin.controller.php	/^	function procAttendanceAdminDeleteAllData()$/;"	f
+procAttendanceAdminDeleteBoard	attendance.admin.controller.php	/^	function procAttendanceAdminDeleteBoard()$/;"	f
+procAttendanceAdminDeleteData	attendance.admin.controller.php	/^	function procAttendanceAdminDeleteData()$/;"	f
+procAttendanceAdminFixAttendanceData	attendance.admin.controller.php	/^	function procAttendanceAdminFixAttendanceData()$/;"	f
+procAttendanceAdminFixTotalData	attendance.admin.controller.php	/^	function procAttendanceAdminFixTotalData()$/;"	f
+procAttendanceAdminInitAll	attendance.admin.controller.php	/^	function procAttendanceAdminInitAll()$/;"	f
+procAttendanceAdminInsertAttendance	attendance.admin.controller.php	/^	function procAttendanceAdminInsertAttendance()$/;"	f
+procAttendanceAdminInsertBoard	attendance.admin.controller.php	/^	function procAttendanceAdminInsertBoard()$/;"	f
+procAttendanceAdminInsertGift	attendance.admin.controller.php	/^	function procAttendanceAdminInsertGift()$/;"	f
+procAttendanceAdminUpdatePoint	attendance.admin.controller.php	/^	function procAttendanceAdminUpdatePoint()$/;"	f
+procAttendanceInsertAttendance	attendance.controller.php	/^	function procAttendanceInsertAttendance()$/;"	f
+procAttendanceModifyContinuous	attendance.controller.php	/^	function procAttendanceModifyContinuous()$/;"	f
+procAttendanceModifyData	attendance.controller.php	/^	function procAttendanceModifyData()$/;"	f
+query_id	attendance.admin.model.php	/^				$query_id = 'attendance.getMemberList';$/;"	v
+query_id	attendance.admin.model.php	/^				$query_id = 'attendance.getMemberListMonthly';$/;"	v
+query_id	attendance.admin.model.php	/^				$query_id = 'attendance.getMemberListWeekly';$/;"	v
+query_id	attendance.admin.model.php	/^				$query_id = 'attendance.getMemberListWithinGroup';$/;"	v
+query_id	attendance.admin.model.php	/^				$query_id = 'attendance.getMemberListWithinGroupMonthly';$/;"	v
+query_id	attendance.admin.model.php	/^				$query_id = 'attendance.getMemberListWithinGroupWeekly';$/;"	v
+query_id	attendance.admin.model.php	/^				$query_id = 'attendance.getMemberListWithinGroupYearly';$/;"	v
+query_id	attendance.admin.model.php	/^				$query_id = 'attendance.getMemberListYearly';$/;"	v
+query_id	attendance.admin.model.php	/^				$query_id = 'member.getMemberList';$/;"	v
+query_id	attendance.admin.model.php	/^				$query_id = 'member.getMemberListWithinGroup';$/;"	v
+r_args	attendance.admin.controller.php	/^		$r_args = new stdClass();$/;"	v
+randNumber	attendance.controller.php	/^						$randNumber = mt_rand($config->random_big_point_f, $config->random_big_point_s);$/;"	v
+randNumber	attendance.controller.php	/^						$randNumber = mt_rand($config->random_small_point_f, $config->random_small_point_s);$/;"	v
+randNumber	attendance.controller.php	/^				$randNumber = mt_rand($config->random_small_point_f, $config->random_small_point_s);$/;"	v
+randNumber	attendance.controller.php	/^			$randNumber = mt_rand($config->minimum, $config->maximum);$/;"	v
+rands	attendance.view.php	/^			$rands = mt_rand(0, $grc - 1);$/;"	v
+recompileCache	attendance.class.php	/^	function recompileCache()$/;"	f
+refresh	skins/default/js/bootstrap.js	/^  ScrollSpy.prototype.refresh = function () {$/;"	m	class:ScrollSpy
+regdate	attendance.admin.controller.php	/^				$regdate = $val->regdate;$/;"	v
+regdate	attendance.admin.controller.php	/^			$regdate = sprintf("%s235959", $obj->check_day);$/;"	v
+regdate	attendance.controller.php	/^		$regdate = $obj->regdate;$/;"	v
+regdate	attendance.controller.php	/^		$regdate = sprintf("%s%s", $obj->selected_date, $obj->regdate);$/;"	v
+regdate_array	attendance.model.php	/^		$regdate_array = array();$/;"	v
+regularlyObject	attendance.model.php	/^		$regularlyObject = new stdClass();$/;"	v
+result	attendance.model.php	/^			$result = array_count_values($regdate_array);$/;"	v
+result	attendance.model.php	/^		$result = (int)$output->data->count;$/;"	v
+result	attendance.model.php	/^		$result = (int)$output->data->monthly_count;$/;"	v
+result	attendance.model.php	/^		$result = (int)$output->data->total_count;$/;"	v
+result	attendance.model.php	/^		$result = (int)$output->data->total_point;$/;"	v
+result	attendance.model.php	/^		$result = (int)$output->data->yearly_count;$/;"	v
+result	attendance.model.php	/^            $result = $output->data->attendance_srl;$/;"	v
+returnUrl	attendance.admin.controller.php	/^			$returnUrl = Context::get('success_return_url') ? Context::get('success_return_url') : getNotEncodedUrl('', 'module', 'admin', 'act', 'dispAttendanceAdminConfig');$/;"	v
+returnUrl	attendance.admin.controller.php	/^			$returnUrl = Context::get('success_return_url') ? Context::get('success_return_url') : getNotEncodedUrl('', 'module', 'admin', 'act', 'dispAttendanceAdminGift');$/;"	v
+returnUrl	attendance.controller.php	/^			$returnUrl = Context::get('success_return_url') ? Context::get('success_return_url') : getNotEncodedUrl('', 'mid', 'attendance');$/;"	v
+returnUrl	attendance.controller.php	/^			$returnUrl = Context::get('success_return_url') ? Context::get('success_return_url') : getNotEncodedUrl('', 'mid', 'attendance', 'act', 'dispAttendanceModifyContinuous', 'member_srl', $member_srl);$/;"	v
+returnUrl	attendance.controller.php	/^        $returnUrl = Context::get('success_return_url') ? Context::get('success_return_url') : getNotEncodedUrl('', 'mid', 'attendance');$/;"	v
+rr	attendance.admin.view.php	/^            $rr =  executeQuery('attendance.getWinRating', $args);$/;"	v
+search_keyword	attendance.admin.model.php	/^		$search_keyword = trim(Context::get('search_keyword'));$/;"	v
+search_target	attendance.admin.model.php	/^		$search_target = trim(Context::get('search_target'));$/;"	v
+sec	attendance.controller.php	/^		$sec = substr($obj->regdate, 4, 2);$/;"	v
+selected_date	attendance.admin.view.php	/^			$selected_date = Context::get('selected_date');$/;"	v
+selected_date	attendance.admin.view.php	/^			$selected_date = zDate(date('YmdHis'), "Ymd");$/;"	v
+selected_date	attendance.view.php	/^			$selected_date = Context::get('selected_date');$/;"	v
+selected_date	attendance.view.php	/^			$selected_date = substr($oAttendance->regdate, 0, 8);$/;"	v
+selected_date	attendance.view.php	/^			$selected_date = zDate(date('YmdHis'), "Ymd");$/;"	v
+selected_date	attendance.view.php	/^		$selected_date = Context::get('selected_date');$/;"	v
+selector	skins/default/js/bootstrap.js	/^  , selector: false$/;"	p	class:var.Tooltip.Tooltip
+selfOutput	attendance.controller.php	/^		$selfOutput = self::addTotalDataUpdate($member_info, $year, $year_month, $obj, $continuity);$/;"	v
+server_time	skins/default/index.html	/^function server_time()$/;"	f
+setup	skins/default/js/jquery.infinitescroll.js	/^	event.special.smartscroll = {$/;"	m	class:event.special.smartscroll
+show	skins/default/js/bootstrap.js	/^      options.delay = {$/;"	p	class:var.Tooltip.this.var.Tooltip.options.delay
+show	skins/default/js/bootstrap.js	/^    , show: true$/;"	p	class:var.Modal.Modal
+show	skins/default/js/bootstrap.js	/^  Modal.prototype.show = function (_relatedTarget) {$/;"	m	class:var.Modal
+skin_content	attendance.admin.view.php	/^		$skin_content = $oModuleAdminModel->getModuleMobileSkinHTML($this->module_info->module_srl);$/;"	v
+skin_content	attendance.admin.view.php	/^		$skin_content = $oModuleAdminModel->getModuleSkinHTML($this->module_info->module_srl);$/;"	v
+skin_list	attendance.admin.view.php	/^		$skin_list = $oModuleModel->getSkins($this->module_path);$/;"	v
+slide	skins/default/js/bootstrap.js	/^  Carousel.prototype.slide = function (type, next) {$/;"	m	class:var.Carousel.Carousel.Carousel
+start	attendance.model.php	/^			$start = new stdClass();$/;"	v
+start_time	attendance.admin.view.php	/^		$start_time = new stdClass();$/;"	v
+str	attendance.controller.php	/^			$str = '회원출석사항';$/;"	v
+sum	attendance.admin.controller.php	/^			$sum = 0;$/;"	v
+sum	attendance.admin.controller.php	/^		$sum = 0;$/;"	v
+sum	attendance.admin.model.php	/^		$sum=0;$/;"	v
+sum_of_point	attendance.admin.controller.php	/^		$sum_of_point = 0;$/;"	v
+target_srl	attendance.controller.php	/^		$target_srl = Context::get('target_srl');$/;"	v
+teardown	skins/default/js/jquery.infinitescroll.js	/^		},$/;"	m	class:event.special.smartscroll
+template	skins/default/js/bootstrap.js	/^  , template: '<div class="tooltip"><div class="tooltip-arrow"><\/div><div class="tooltip-inner"><\/div><\/div>'$/;"	p	class:var.Tooltip.Tooltip
+template_path	attendance.admin.view.php	/^			$template_path = sprintf("%sskins\/%s\/", $this->module_path, $module_info->skin);$/;"	v
+template_path	attendance.admin.view.php	/^		$template_path = sprintf("%sskins\/%s\/", $this->module_path, $module_info->skin);$/;"	v
+template_path	attendance.mobile.php	/^			$template_path = sprintf("%sm.skins\/%s\/", $this->module_path, $this->module_info->mskin);$/;"	v
+template_path	attendance.mobile.php	/^		$template_path = sprintf("%sm.skins\/%s\/", $this->module_path, $this->module_info->mskin);$/;"	v
+template_path	attendance.view.php	/^			$template_path = sprintf("%sm.skins\/%s\/", $this->module_path, $this->module_info->skin);$/;"	v
+template_path	attendance.view.php	/^		$template_path = sprintf("%sm.skins\/%s\/", $this->module_path, $this->module_info->skin);$/;"	v
+templeatFileName	attendance.admin.view.php	/^		$templeatFileName = strtolower($viewType);$/;"	v
+text_entercheck	m.skins/default/js/at.js	/^function text_entercheck(e){$/;"	f
+text_entercheck	skins/default/js/at.js	/^function text_entercheck(e){$/;"	f
+text_entercheck	skins/sr_at_skin/js/at.js	/^function text_entercheck(e){$/;"	f
+timeCountData	attendance.admin.view.php	/^		$timeCountData = array();$/;"	v
+timeOclock	attendance.admin.view.php	/^				$timeOclock = '0' . $time;$/;"	v
+timeOclock	attendance.admin.view.php	/^				$timeOclock = strval($time);$/;"	v
+time_array	attendance.admin.model.php	/^		$time_array = array();$/;"	v
+title	skins/default/js/bootstrap.js	/^  , title: ''$/;"	p	class:var.Tooltip.Tooltip
+today	attendance.controller.php	/^			$today = zDate($todayDateTime, "Ymd");$/;"	v
+today	attendance.controller.php	/^			$today = zDate($todayDateTime,"Ymd");$/;"	v
+today	attendance.controller.php	/^		$today = zDate(date('YmdHis'), "Ymd");$/;"	v
+today	attendance.controller.php	/^        $today = zDate(date('YmdHis'), "Ymd");$/;"	v
+today	attendance.model.php	/^		$today = date('Y-m-d');$/;"	v
+todayDateTime	attendance.controller.php	/^			$todayDateTime = $r_args->regdate;$/;"	v
+todayDateTime	attendance.controller.php	/^			$todayDateTime = date('YmdHis');$/;"	v
+todayGiftCount	attendance.controller.php	/^			$todayGiftCount = $oAttendanceModel->getTodayGiftCount($today);$/;"	v
+today_point	attendance.admin.controller.php	/^				$today_point = $val->today_point;$/;"	v
+todays	attendance.controller.php	/^			$todays = substr($today, 4, 4);$/;"	v
+toggle	skins/default/index.html	/^	function toggle(post_id)$/;"	f
+toggle	skins/default/js/bootstrap.js	/^  Collapse.DEFAULTS = {$/;"	p	class:var.Collapse.Collapse
+toggle	skins/default/js/bootstrap.js	/^  Collapse.prototype.toggle = function () {$/;"	m	class:var.Collapse.Collapse.Collapse
+toggle	skins/default/js/bootstrap.js	/^  Modal.prototype.toggle = function (_relatedTarget) {$/;"	m	class:var.Modal
+toggle_object	m.skins/default/js/at.js	/^function toggle_object(post_id){   $/;"	f
+toggle_object	skins/sr_at_skin/js/at.js	/^function toggle_object(post_id){   $/;"	f
+totalOutput	attendance.controller.php	/^			$totalOutput = $this->insertTotal($member_info->member_srl, $continuity, $total_attendance, $obj->today_point, $regdate);$/;"	v
+totalOutput	attendance.controller.php	/^			$totalOutput = $this->updateTotal($member_info->member_srl, $continuity, $total_attendance, $total_point, $regdate);$/;"	v
+total_absent	attendance.model.php	/^		$total_absent = preg_replace('\/.0\/', '', $total_absent_number);$/;"	v
+total_absent	attendance.view.php	/^		$total_absent = $oAttendanceModel->getTotalAbsent($user_sign_up_date, $total_attendance);$/;"	v
+total_absent_number	attendance.model.php	/^		$total_absent_number = abs($d_day) - $total_attendance;$/;"	v
+total_attendance	attendance.admin.controller.php	/^				$total_attendance = $oAttendanceModel->getTotalAttendance($obj->member_srl);$/;"	v
+total_attendance	attendance.controller.php	/^			$total_attendance = $oAttendanceModel->getTotalAttendance($member_info->member_srl);$/;"	v
+total_attendance	attendance.view.php	/^		$total_attendance = $oAttendanceModel->getTotalAttendance($member_srl);$/;"	v
+total_count	attendance.admin.view.php	/^		$total_count = $oAttendanceAdminModel->getTodayTotalCount($selected_date);$/;"	v
+total_data	attendance.admin.controller.php	/^		$total_data = $oAttendanceModel->getTotalData($obj->member_srl);$/;"	v
+total_info	attendance.controller.php	/^		$total_info = $oAttendanceModel->getTotalData($oAttendance->member_srl);$/;"	v
+total_info	attendance.model.php	/^		$total_info = new stdClass();$/;"	v
+total_point	attendance.admin.controller.php	/^					$total_point = 0;$/;"	v
+total_point	attendance.admin.controller.php	/^				$total_point = $oAttendanceModel->getTotalPoint($obj->member_srl);$/;"	v
+total_point	attendance.admin.controller.php	/^			$total_point = $point;$/;"	v
+total_point	attendance.admin.controller.php	/^		$total_point = $oAttendanceModel->getTotalPoint($member_srl);$/;"	v
+total_point	attendance.controller.php	/^			$total_point = $oAttendanceModel->getTotalPoint($member_info->member_srl);$/;"	v
+total_weekly	attendance.view.php	/^		$total_weekly = $oAttendanceModel->getWeeklyAttendanceByMemberSrl($member_srl);$/;"	v
+transitionEnd	skins/default/js/bootstrap.js	/^  function transitionEnd() {$/;"	f
+trigger	skins/default/js/bootstrap.js	/^  , trigger: 'hover focus'$/;"	p	class:var.Tooltip.Tooltip
+triggerAddMemberMenu	attendance.controller.php	/^	function triggerAddMemberMenu()$/;"	f
+triggerAutoAttend	attendance.controller.php	/^	function triggerAutoAttend($obj)$/;"	f
+triggerBeforeDisplay	attendance.controller.php	/^	function triggerBeforeDisplay(&$content)$/;"	f
+triggerDeleteMember	attendance.controller.php	/^	function triggerDeleteMember($obj)$/;"	f
+triggerUpdateMemberBefore	attendance.controller.php	/^	function triggerUpdateMemberBefore($args)$/;"	f
+trigger_obj	attendance.controller.php	/^		$trigger_obj = new stdClass();$/;"	v
+triggers	attendance.class.php	/^	private $triggers = array($/;"	v
+type	attendance.admin.model.php	/^		$type = $new_type;$/;"	v
+updateAttendance	attendance.model.php	/^	function updateAttendance($attendance_srl, $regdate, $today_point = null, $member_srl = null, $greetings = null)$/;"	f
+updateMonthly	attendance.controller.php	/^	function updateMonthly($member_srl, $year_month, $monthly, $monthly_point, $regdate)$/;"	f
+updatePoint	tpl/js/attendance_admin.js	/^function updatePoint(member_srl, action){$/;"	f
+updateTotal	attendance.controller.php	/^	function updateTotal($member_srl, $continuity, $total_attendance, $total_point, $regdate)$/;"	f
+updateWeekly	attendance.controller.php	/^	function updateWeekly($member_srl, $week, $weekly, $weekly_point, $regdate)$/;"	f
+updateWinsLoses	attendance.model.php	/^	function updateWinsLoses($attendance_srl, $type) {$/;"	f
+updateYearly	attendance.controller.php	/^	function updateYearly($member_srl, $year, $yearly, $yearly_point, $regdate)$/;"	f
+url	attendance.controller.php	/^			$url = getUrl('', 'mid', 'attendance', 'act', 'dispAttendanceMemberInfo', 'member_srl', $target_srl);$/;"	v
+user_data	attendance.admin.view.php	/^		$user_data = $oAttendanceAdminModel->getAttendanceMemberList(20, 'day');$/;"	v
+user_data	attendance.admin.view.php	/^		$user_data = $oAttendanceAdminModel->getAttendanceMemberList(20, 'rankmonthly');$/;"	v
+user_data	attendance.admin.view.php	/^		$user_data = $oAttendanceAdminModel->getAttendanceMemberList(20, 'ranktotal');$/;"	v
+user_data	attendance.admin.view.php	/^		$user_data = $oAttendanceAdminModel->getAttendanceMemberList(20, 'rankweekly');$/;"	v
+user_data	attendance.admin.view.php	/^		$user_data = $oAttendanceAdminModel->getAttendanceMemberList(20, 'rankyearly');$/;"	v
+user_data	attendance.admin.view.php	/^		$user_data = $oAttendanceAdminModel->getAttendanceMemberList(20, 'speedsearch');$/;"	v
+user_data	attendance.view.php	/^		$user_data = $oAttendanceAdminModel->getAttendanceMemberList(20, 'day');$/;"	v
+user_ids	attendance.class.php	/^			$user_ids = executeQueryArray('attendance.migrationGetIdAttendance');$/;"	v
+user_ids	attendance.class.php	/^			$user_ids = executeQueryArray('attendance.migrationGetIdAttendanceMonthly');$/;"	v
+user_ids	attendance.class.php	/^			$user_ids = executeQueryArray('attendance.migrationGetIdAttendanceTotal');$/;"	v
+user_ids	attendance.class.php	/^			$user_ids = executeQueryArray('attendance.migrationGetIdAttendanceWeekly');$/;"	v
+user_ids	attendance.class.php	/^			$user_ids = executeQueryArray('attendance.migrationGetIdAttendanceYearly');$/;"	v
+user_sign_up_date	attendance.view.php	/^		$user_sign_up_date = $member_info->regdate;$/;"	v
+value	attendance.controller.php	/^			$value = $oAttendance->today_point - $obj->today_point;$/;"	v
+value	attendance.controller.php	/^			$value = $obj->today_point - $oAttendance->today_point;$/;"	v
+viewType	attendance.admin.view.php	/^		$viewType = str_replace('dispAttendanceAdmin', '', $this->act);$/;"	v
+week	attendance.admin.controller.php	/^		$week = $oAttendanceModel->getWeek($obj->check_day);$/;"	v
+week	attendance.admin.controller.php	/^		$week = $oAttendanceModel->getWeek($obj->selected_date);$/;"	v
+week	attendance.admin.model.php	/^			$week=$oAttendanceModel->getWeek(zDate(date('YmdHis'),"Ymd"));$/;"	v
+week	attendance.admin.model.php	/^		$week = $oAttendanceModel->getWeek($obj->selected_date);$/;"	v
+week	attendance.admin.model.php	/^		$week = $oAttendanceModel->getWeek(Context::get('selected_date'));$/;"	v
+week	attendance.admin.view.php	/^		$week = $oAttendanceModel->getWeek($selected_date);$/;"	v
+week	attendance.controller.php	/^		$week = $oAttendanceModel->getWeek($obj->selected_date);$/;"	v
+week	attendance.controller.php	/^		$week = $oAttendanceModel->getWeek($regdate);$/;"	v
+week	attendance.controller.php	/^		$week = $oAttendanceModel->getWeek($today);$/;"	v
+week	attendance.model.php	/^			$week = $this->getWeek($today);$/;"	v
+week	attendance.model.php	/^			$week = $this->getWeek(zDate(date('YmdHis'), "Ymd"));$/;"	v
+week	attendance.model.php	/^		$week = new stdClass();$/;"	v
+weekOutput	attendance.controller.php	/^			$weekOutput = $this->insertWeekly($member_info->member_srl, $weekly_data, $weekly_point, $regdate);$/;"	v
+weekOutput	attendance.controller.php	/^			$weekOutput = $this->updateWeekly($member_info->member_srl, $week, $weekly_data, $weekly_point, $regdate);$/;"	v
+week_cache_key	attendance.model.php	/^		$week_cache_key = $week->sunday;$/;"	v
+week_data	attendance.admin.controller.php	/^		$week_data = $oAttendanceModel->getWeeklyData($obj->member_srl, $week);$/;"	v
+week_data	attendance.model.php	/^		$week_data = $this->getWeeklyData($member_srl, $week);$/;"	v
+week_data	attendance.model.php	/^		$week_data = new stdClass();$/;"	v
+week_info	attendance.admin.controller.php	/^				$week_info = $oAttendanceModel->getWeeklyData($obj->member_srl, $week);$/;"	v
+week_info	attendance.controller.php	/^			$week_info = $oAttendanceModel->getWeeklyData($member_info->member_srl, $week);$/;"	v
+weekly	attendance.model.php	/^		$weekly = ($type === 'weekly' && $condition) ? $condition->sunday : $this->getWeek(date('YmdHis'))->sunday;$/;"	v
+weekly_data	attendance.admin.controller.php	/^				$weekly_data = $oAttendanceModel->getWeeklyAttendance($obj->member_srl, $week);$/;"	v
+weekly_data	attendance.controller.php	/^			$weekly_data = $oAttendanceModel->getWeeklyAttendance($member_info->member_srl, $week);$/;"	v
+weekly_data	attendance.controller.php	/^		$weekly_data = $oAttendanceModel->getWeeklyData($member_info->member_srl, $week);$/;"	v
+weekly_info	attendance.controller.php	/^		$weekly_info = $oAttendanceModel->getWeeklyData($oAttendance->member_srl, $week);$/;"	v
+weekly_point	attendance.admin.controller.php	/^					$weekly_point = 0;$/;"	v
+weekly_point	attendance.admin.controller.php	/^				$weekly_point = $week_info->weekly_point;$/;"	v
+weekly_point	attendance.controller.php	/^			$weekly_point = $obj->today_point;$/;"	v
+weekly_point	attendance.controller.php	/^			$weekly_point = $week_info->weekly_point;$/;"	v
+win	attendance.controller.php	/^				$win = mt_rand(1, 100);$/;"	v
+wins	attendance.controller.php	/^        $wins = $output->data->wins; $/;"	v
+wrap	skins/default/js/bootstrap.js	/^  , wrap: true$/;"	p	class:var.Carousel.Carousel
+year	attendance.admin.controller.php	/^		$year = substr($obj->check_day, 0, 4);$/;"	v
+year	attendance.admin.controller.php	/^		$year = substr($obj->selected_date, 0, 4);$/;"	v
+year	attendance.admin.model.php	/^		$year = substr($obj->selected_date,0,4);$/;"	v
+year	attendance.admin.view.php	/^		$year = substr($selected_date, 0, 4);$/;"	v
+year	attendance.controller.php	/^			$year = $r_args->year;$/;"	v
+year	attendance.controller.php	/^			$year = zDate($todayDateTime, "Y");$/;"	v
+year	attendance.controller.php	/^		$year = substr($obj->selected_date, 0, 4);$/;"	v
+year	attendance.model.php	/^			$year = zDate(date('YmdHis'), "Y");$/;"	v
+year	attendance.view.php	/^		$year = substr($selected_date, 0, 4);$/;"	v
+year_data	attendance.model.php	/^		$year_data = $this->getYearlyData($year, $member_srl);$/;"	v
+year_data	attendance.model.php	/^		$year_data = new stdClass();$/;"	v
+year_info	attendance.admin.controller.php	/^				$year_info = $oAttendanceModel->getYearlyAttendance($obj->member_srl, $year);$/;"	v
+year_info	attendance.controller.php	/^			$year_info = $oAttendanceModel->getYearlyAttendance($member_info->member_srl, $year);$/;"	v
+year_month	attendance.admin.controller.php	/^		$year_month = substr($obj->check_day, 0, 6);$/;"	v
+year_month	attendance.admin.controller.php	/^		$year_month = substr($obj->selected_date, 0, 6);$/;"	v
+year_month	attendance.admin.view.php	/^		$year_month = substr($selected_date, 0, 6);$/;"	v
+year_month	attendance.controller.php	/^			$year_month = $r_args->year_month;$/;"	v
+year_month	attendance.controller.php	/^			$year_month = zDate($todayDateTime, "Ym");$/;"	v
+year_month	attendance.controller.php	/^		$year_month = substr($obj->selected_date, 0, 6);$/;"	v
+year_month	attendance.model.php	/^			$year_month = zDate(date('YmdHis'), "Ym");$/;"	v
+yearly	attendance.model.php	/^		$yearly = ($type === 'yearly' && $condition) ? $condition : zDate(date('YmdHis'), "Y");$/;"	v
+yearlyOutput	attendance.controller.php	/^			$yearlyOutput = $this->insertYearly($member_info->member_srl, $yearly_data, $yearly_point, $regdate);$/;"	v
+yearlyOutput	attendance.controller.php	/^			$yearlyOutput = $this->updateYearly($member_info->member_srl, $year, $yearly_data, $yearly_point, $regdate);$/;"	v
+yearly_data	attendance.admin.controller.php	/^				$yearly_data = $oAttendanceModel->getYearlyData($year, $obj->member_srl);$/;"	v
+yearly_data	attendance.admin.controller.php	/^		$yearly_data = $oAttendanceModel->getYearlyAttendance($obj->member_srl, $year);$/;"	v
+yearly_data	attendance.controller.php	/^			$yearly_data = $oAttendanceModel->getYearlyData($year, $member_info->member_srl);$/;"	v
+yearly_info	attendance.controller.php	/^		$yearly_info = $oAttendanceModel->getYearlyAttendance($oAttendance->member_srl, $year);$/;"	v
+yearly_point	attendance.admin.controller.php	/^					$yearly_point = 0;$/;"	v
+yearly_point	attendance.admin.controller.php	/^				$yearly_point = $year_info->yearly_point;$/;"	v
+yearly_point	attendance.controller.php	/^			$yearly_point = $obj->today_point;$/;"	v
+yearly_point	attendance.controller.php	/^			$yearly_point = $year_info->yearly_point;$/;"	v
+yesterday	attendance.controller.php	/^			$yesterday = null;$/;"	v
+yesterday	attendance.controller.php	/^			$yesterday = zDate(date("YmdHis", strtotime("-1 day")), "Ymd");$/;"	v
+yesterday_continuity_data	attendance.controller.php	/^		$yesterday_continuity_data = $oAttendanceModel->isExistContinuity($member_info->member_srl, $yesterday);$/;"	v
+ym	attendance.model.php	/^		$ym = sprintf("%s%s", $current_year, $current_month);$/;"	v
+zd	attendance.admin.view.php	/^            $zd = zDate(date('YmdHis'), "Ym");$/;"	v

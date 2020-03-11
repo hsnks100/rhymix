@@ -1,0 +1,44 @@
+<div class="alert alert-warning">{$lang->attend_click_msg}</div>
+
+<div class="x">
+	<form action="./" method="post" id="click_button" style="text-align:center" class="write_author" ruleset="Attendanceinsert">
+		<input type="hidden" name="mid" value="{$mid}" />
+		<input type="hidden" name="act" value="procAttendanceInsertAttendance" />
+		<input type="hidden" name="xe_validator_id" value="modules/attendance/skins/default/attendanceinsert" />
+
+		<span class="input-append" style="width:100%; display:inline-block">
+			<input type="text" name="greetings" id="greetings" style="width:50%; height:26px" value="{$greeting_name}" class="write_text" />
+			<button type="submit" class="x_btn x_btn-inverse sm-btn" onclick="beCheckWrite(this)"><i class="fa fa-paw fa-2x"></i></button>
+		</span>
+	</form>
+</div>
+
+<script>
+function beCheckWrite(obj){
+	var delaytime = 10000,
+			submingText = '출석중..',
+			ori_text = '<i class="fa fa-paw fa-2x"></i>',
+			checkInput = false;
+
+	if(!ori_text){
+		checkInput = false;
+		ori_text = jQuery(obj).text();
+	}else{
+		checkInput = true;
+	}
+	if(ori_text == submingText) return false;
+	//obj.disabled=true;
+	if(!checkInput){
+		jQuery(obj).text(submingText);
+	}else{
+		jQuery(obj).val(submingText);
+	}
+	// 설정한 시간이 지나면 다시 활성화
+	setTimeout(function(){
+		if(checkInput) jQuery(obj).val(ori_text);
+		else jQuery(obj).text(ori_text);
+	},delaytime);
+
+	return true;
+}
+</script>

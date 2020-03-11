@@ -1,0 +1,30 @@
+<query id="getWinRating" action="select">
+    <tables>
+        <table name="attendance" />
+        <table name="member" />
+    </tables>
+    <columns>
+        <column name="attendance.member_srl" />
+        <column name="sum(wins)" alias="mwins"/>
+        <column name="sum(loses)" alias="mloses"/>
+        <column name="member.nick_name" />
+        <column name="sum(wins) / (sum(wins) + sum(loses))" alias="rate" /> 
+    </columns>
+    <conditions>
+        <condition operation="equal" column="attendance.member_srl" default="member.member_srl" pipe="and" />
+        <condition operation="more" column="attendance.regdate" var="s_regdate_more" pipe="and" />
+        <condition operation="more" column="attendance.wins" default="1" pipe="and" />
+        <condition operation="less" column="attendance.regdate" var="s_regdate_less" />
+    </conditions>
+
+    <groups>
+        <group column="attendance.member_srl" />
+    </groups>
+
+    <navigation>
+        <index var="sort_index" default="rate" order="desc" />
+        <list_count var="list_count" default="20" />
+        <page_count var="page_count" default="10" />
+        <page var="page" default="1" />
+    </navigation>
+</query>

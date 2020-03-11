@@ -1,0 +1,12 @@
+<query id="getPositionData" action="select">
+    <tables>
+        <table name="attendance" />
+    </tables>
+    <columns>
+        <column name="count(*)" alias="count"/>
+    </columns>
+    <conditions>
+		<condition operation="like_prefix" column="attendance.regdate" var="today" pipe="and" />
+		<condition operation="notequal" column="attendance.greetings" var="greetings" pipe="and" />
+    </conditions>
+</query>
